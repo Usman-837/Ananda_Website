@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '../../../../public/Home/logo.png'
+import logo from '../../../../public/Home/Logo/logo.png'
 
 const Navbar = () => {
   return (
