@@ -1,8 +1,8 @@
-
-export default function Home() {
+import Home from "./home/page";
+export default function Main() {
   return (
     <div>
-      <h1>Home</h1>
+      <Home />
     </div>
   );
 }
