@@ -1,12 +1,11 @@
 import Banner from "../components/Banner/Banner"
+import Memories from "../components/Memories/Memories"
 
 const Home = () => {
   return (
     <>
-      <Banner/>
-      <div className="container">
-      
-      </div>
+      <Banner />
+      <Memories />
     </>
   )
 }
