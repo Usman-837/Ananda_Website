@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,8 +12,18 @@
   box-sizing: border-box;
 } 
 
+.Marcellus {
+  font-family: "Marcellus", serif;
+}
+.Calligraffitti {
+  font-family: "Calligraffitti", serif;
+}
+.Roboto {
+  font-family: "Roboto", serif;
+}
+
 .container {
-  max-width: 1536px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 1rem;
 }

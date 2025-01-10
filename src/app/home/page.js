@@ -1,8 +1,14 @@
+import Banner from "../components/Banner/Banner"
+import Memories from "../components/Memories/Memories"
+import Testimonials from "../components/Testimonials/Testimonials"
+
 const Home = () => {
   return (
-    <div className="container">
-      Hi this is home page
-    </div>
+    <>
+      <Banner />
+      <Memories />
+      <Testimonials/>
+    </>
   )
 }
 
