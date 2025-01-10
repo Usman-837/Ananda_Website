@@ -13,9 +13,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className='sticky top-0 z-50'>
+    <div className='sticky top-0 z-50 bg-white'>
       <div className="container">
-        <div className="flex justify-center max-md:justify-between items-center py-4 z-50">
+        <div className="flex justify-center max-md:justify-between items-center py-2 z-50">
           <ul className="flex justify-center items-center gap-x-16 max-lg:gap-x-10 max-md:hidden">
             <li>
               <Link href="/">Home</Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div
-            className="md:hidden right-8 top-4 text-2xl flex"
+            className="md:hidden right-8 top-4 text-2xl flex text-[#D7B5AB] cursor-pointer"
             onClick={handleToggle}
           >
             <FaBars />
