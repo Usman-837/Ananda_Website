@@ -1,6 +1,7 @@
 import Banner from "../components/Banner/Banner"
 import Memories from "../components/Memories/Memories"
 import Testimonials from "../components/Testimonials/Testimonials"
+import WeddingStory from "../components/WeddingStory/WeddingStory"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <Memories />
       <Testimonials/>
+      <WeddingStory/>
     </>
   )
 }
