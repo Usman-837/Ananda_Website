@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { TfiQuoteRight } from "react-icons/tfi";
+import Image from 'next/image';
+import videoImg from '../../../../public/Home/Testimonial/Section.png';
 
 const Testimonials = () => {
 
@@ -98,6 +100,15 @@ const Testimonials = () => {
                     </Slider>
                 </div>
             </div>
+            <Image src={videoImg} className='py-20' />
+            {/* <video 
+                controls
+                poster="/path-to-poster-image.jpg"
+                className="rounded-lg shadow-lg"
+            >
+                <source src="/path-to-video.mp4" type="video/mp4" />
+            </video> */}
+
         </section>
     )
 }
