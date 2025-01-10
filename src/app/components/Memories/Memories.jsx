@@ -91,7 +91,7 @@ const Memories = () => {
             <h1 className='text-[65px] max-lg:text-5xl max-md:text-3xl max-sm:text-xl py-10 text-center Calligraffitti'>Planning Your Everlasting Memories</h1>
             <div className='bg-[#FAF6F2] py-28'>
                 <div className='container flex flex-col justify-center items-center'>
-                    <div className='flex justify-between max-md:gap-y-8 max-md:flex-col py-20'>
+                    <div className='flex justify-between max-md:gap-y-8 max-md:flex-col pb-20'>
                         <p className='w-1/2 max-md:w-full text-[42px] max-lg:text-4xl max-sm:text-xl Marcellus'>Experience Luxury <br /> experience caymanKind</p>
                         <p className='w-1/2 max-md:w-full max-sm:text-sm border-l border-gray-300 pl-12 max-sm:pl-6 text-lg Roboto text-[#666666]'>Celebrations is an award-winning, full-service wedding planner based in Grand Cayman in the Caribbean. For over 30 years, we have worked with hundreds of couples, local and across the globe, bringing their Cayman Islands wedding or elopement dreams to life.</p>
                     </div>
