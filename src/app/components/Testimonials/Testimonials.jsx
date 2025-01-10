@@ -100,7 +100,7 @@ const Testimonials = () => {
                     </Slider>
                 </div>
             </div>
-            <Image src={videoImg} className='py-20' />
+            <Image src={videoImg} className='pt-20' />
             {/* <video 
                 controls
                 poster="/path-to-poster-image.jpg"
