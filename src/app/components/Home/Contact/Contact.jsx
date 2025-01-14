@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
 // import Image from 'next/image';
-import contactimg1 from '../../../../../public/Home/Contact/bgimage1.png';
-// import contactimg2 from '../../../../public/Home/Contact/bgimage2.png';
-// import contactimg3 from '../../../../public/Home/Contact/bgimage3.png';
+import contactimg1 from '../../../../../public/Home/Contact/bgimage1.png'
+// import contactimg2 from '../../../../public/Home/Contact/bgimage2.png'
+// import contactimg3 from '../../../../public/Home/Contact/bgimage3.png'
 
 const Contact = () => {
     return (

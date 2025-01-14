@@ -1,16 +1,17 @@
 'use client'
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import logo from '../../../../../public/Home/Logo/logo.png';
-import { FaBars } from 'react-icons/fa';
+import React, { useState } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import logo from '../../../../../public/Home/Logo/logo.png'
+import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
+
+  const [toggle, setToggle] = useState(false)
 
   const handleToggle = () => {
     setToggle((prev) => !prev);
-  };
+  }
 
   return (
     <div className='sticky top-0 z-50 bg-white'>
@@ -80,7 +81,7 @@ const Navbar = () => {
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

@@ -1,11 +1,11 @@
 'use client'
 import React from 'react'
-import Image from 'next/image';
-import Partner1 from '../../../../../public/Home/Partners/partner1.png';
-import Partner2 from '../../../../../public/Home/Partners/partner2.png';
-import Partner3 from '../../../../../public/Home/Partners/partner3.png';
-import Partner4 from '../../../../../public/Home/Partners/partner4.png';
-import Partner5 from '../../../../../public/Home/Partners/partner5.png';
+import Image from 'next/image'
+import Partner1 from '../../../../../public/Home/Partners/partner1.png'
+import Partner2 from '../../../../../public/Home/Partners/partner2.png'
+import Partner3 from '../../../../../public/Home/Partners/partner3.png'
+import Partner4 from '../../../../../public/Home/Partners/partner4.png'
+import Partner5 from '../../../../../public/Home/Partners/partner5.png'
 
 const Partners = () => {
 

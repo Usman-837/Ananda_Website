@@ -9,6 +9,7 @@ import Testimonials from "../components/Home/Testimonials/Testimonials"
 import WeddingStory from "../components/Home/WeddingStory/WeddingStory"
 
 const Home = () => {
+  
   return (
     <>
       <Banner />

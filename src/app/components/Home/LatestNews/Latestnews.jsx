@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
-import Image from 'next/image';
-import newsimg1 from '../../../../../public/Home/LatestNews/newsimg1.png';
-import newsimg2 from '../../../../../public/Home/LatestNews/newsimg2.png';
-import newsimg3 from '../../../../../public/Home/LatestNews/newsimg3.png';
-import newsimg4 from '../../../../../public/Home/LatestNews/newsimg4.png';
+import Image from 'next/image'
+import newsimg1 from '../../../../../public/Home/LatestNews/newsimg1.png'
+import newsimg2 from '../../../../../public/Home/LatestNews/newsimg2.png'
+import newsimg3 from '../../../../../public/Home/LatestNews/newsimg3.png'
+import newsimg4 from '../../../../../public/Home/LatestNews/newsimg4.png'
 
 const Latestnews = () => {
 
