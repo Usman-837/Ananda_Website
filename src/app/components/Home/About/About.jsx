@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import Image from 'next/image';
-import Aboutimg from '../../../../public/Home/About/aboutimg.png';
+import Image from 'next/image'
+import Aboutimg from '../../../../../public/Home/About/aboutimg.png'
 
 const About = () => {
     return (

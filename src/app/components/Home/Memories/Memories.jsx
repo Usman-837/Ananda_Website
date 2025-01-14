@@ -1,17 +1,17 @@
 'use client'
 import React from 'react'
-import Image from 'next/image';
-import cardimage1 from '../../../../public/Home/Memories/image1.jpg';
-import cardimage2 from '../../../../public/Home/Memories/image2.jpg';
-import cardimage3 from '../../../../public/Home/Memories/image3.jpg';
-import cardimage4 from '../../../../public/Home/Memories/image4.jpg';
-import cardimage5 from '../../../../public/Home/Memories/image5.png';
-import Memoryimg from '../../../../public/Home/Memories/image6.png';
-import Memoryimg2 from '../../../../public/Home/Memories/image8.png';
-import logo from '../../../../public/Home/Logo/logo.png';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Image from 'next/image'
+import cardimage1 from '../../../../../public/Home/Memories/image1.jpg'
+import cardimage2 from '../../../../../public/Home/Memories/image2.jpg'
+import cardimage3 from '../../../../../public/Home/Memories/image3.jpg'
+import cardimage4 from '../../../../../public/Home/Memories/image4.jpg'
+import cardimage5 from '../../../../../public/Home/Memories/image5.png'
+import Memoryimg from '../../../../../public/Home/Memories/image6.png'
+import Memoryimg2 from '../../../../../public/Home/Memories/image8.png'
+import logo from '../../../../../public/Home/Logo/logo.png'
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const Memories = () => {
 

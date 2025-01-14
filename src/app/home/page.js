@@ -1,13 +1,15 @@
-import About from "../components/About/About"
-import Banner from "../components/Banner/Banner"
-import Contact from "../components/Contact/Contact"
-import Footer from "../components/Footer/Footer"
-import Latestnews from "../components/LatestNews/Latestnews"
-import Memories from "../components/Memories/Memories"
-import Testimonials from "../components/Testimonials/Testimonials"
-import WeddingStory from "../components/WeddingStory/WeddingStory"
+import About from "../components/Home/About/About"
+import Banner from "../components/Home/Banner/Banner"
+import Contact from "../components/Home/Contact/Contact"
+import Footer from "../components/Home/Footer/Footer"
+import Latestnews from "../components/Home/LatestNews/Latestnews"
+import Memories from "../components/Home/Memories/Memories"
+import Partners from "../components/Home/Partners/Partners"
+import Testimonials from "../components/Home/Testimonials/Testimonials"
+import WeddingStory from "../components/Home/WeddingStory/WeddingStory"
 
 const Home = () => {
+  
   return (
     <>
       <Banner />
@@ -15,6 +17,7 @@ const Home = () => {
       <About/>
       <Testimonials/>
       <WeddingStory/>
+      <Partners/>
       <Contact/>
       <Latestnews/>
       <Footer/>

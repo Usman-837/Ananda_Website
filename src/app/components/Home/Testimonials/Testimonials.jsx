@@ -1,11 +1,11 @@
 'use client'
 import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { TfiQuoteRight } from "react-icons/tfi";
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import { TfiQuoteRight } from "react-icons/tfi"
 import Image from 'next/image';
-import videoImg from '../../../../public/Home/Testimonial/Section.png';
+import videoImg from '../../../../../public/Home/Testimonial/Section.png'
 
 const Testimonials = () => {
 

@@ -1,14 +1,14 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Img1 from '../../../../public/Home/WeddingStory/image1.png'
-import Img2 from '../../../../public/Home/WeddingStory/image3.png'
-import Img3 from '../../../../public/Home/WeddingStory/image2.png'
-import Img4 from '../../../../public/Home/WeddingStory/image4.png'
+import Img1 from '../../../../../public/Home/WeddingStory/image1.png'
+import Img2 from '../../../../../public/Home/WeddingStory/image3.png'
+import Img3 from '../../../../../public/Home/WeddingStory/image2.png'
+import Img4 from '../../../../../public/Home/WeddingStory/image4.png'
 
 const WeddingStory = () => {
     return (
-        <section className='bg-[#FAF6F2] pt-28 pb-48 max-sm:pb-16'>
+        <section className='bg-[#FAF6F2] py-28'>
             <div className='container'>
                 <div className='space-y-4'>
                     <h1 className='Calligraffitti text-center text-[#939580] text-3xl'>Amazing Work</h1>
