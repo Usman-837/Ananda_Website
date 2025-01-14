@@ -6,6 +6,9 @@ import cardimage2 from '../../../../public/Home/Memories/image2.jpg';
 import cardimage3 from '../../../../public/Home/Memories/image3.jpg';
 import cardimage4 from '../../../../public/Home/Memories/image4.jpg';
 import cardimage5 from '../../../../public/Home/Memories/image5.png';
+import Memoryimg from '../../../../public/Home/Memories/image6.png';
+import Memoryimg2 from '../../../../public/Home/Memories/image8.png';
+import logo from '../../../../public/Home/Logo/logo.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -94,6 +97,31 @@ const Memories = () => {
                     <div className='flex justify-between max-md:gap-y-8 max-md:flex-col pb-20'>
                         <p className='w-1/2 max-md:w-full text-[42px] max-lg:text-4xl max-sm:text-xl Marcellus'>Experience Luxury <br /> experience caymanKind</p>
                         <p className='w-1/2 max-md:w-full max-sm:text-sm border-l border-gray-300 pl-12 max-sm:pl-6 text-lg Roboto text-[#666666]'>Celebrations is an award-winning, full-service wedding planner based in Grand Cayman in the Caribbean. For over 30 years, we have worked with hundreds of couples, local and across the globe, bringing their Cayman Islands wedding or elopement dreams to life.</p>
+                    </div>
+                    <div className='flex pb-44 pt-10'>
+                        <div>
+                            <Image src={Memoryimg} alt='memoryimg' />
+                        </div>
+                        <div className='flex flex-col justify-between'>
+                            <div className='flex'>
+                                <div className='flex flex-col items-center text-center'>
+                                    <Image src={logo} alt='logo' className='w-36' />
+                                    <p className='Marcellus text-3xl'>Live your magic and save your<br />
+                                        precious love memories!</p>
+                                </div>
+                                <div>
+                                    <Image src={Memoryimg2} alt='memoryimg' className='w-36' />
+                                </div>
+                            </div>
+                            <div className='flex flex-col items-center justify-center text-center gap-y-5'>
+                                <h1 className='Vujahday text-5xl'>special moments</h1>
+                                <p className='text-[#666666]'>Introduce the bridal party and groomsmen with brief bios and<br />
+                                    photos. Share fun facts or memorable stories about each member’s<br />
+                                    relationship with the couple.
+                                </p>
+                                <button className='bg-[#D4B0A5] text-white px-11 py-3.5'>Appointment</button>
+                            </div>
+                        </div>
                     </div>
                     {/* Slider */}
                     <div className='w-full'>
