@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../../../public/Home/Logo/logo.png';
+import logo from '../../../../../public/Home/Logo/logo.png';
 import { CiTwitter } from "react-icons/ci";
 import { CiBasketball } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa6";

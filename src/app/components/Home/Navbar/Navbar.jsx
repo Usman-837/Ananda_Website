@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../../../public/Home/Logo/logo.png';
+import logo from '../../../../../public/Home/Logo/logo.png';
 import { FaBars } from 'react-icons/fa';
 
 const Navbar = () => {

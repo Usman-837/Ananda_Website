@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Img1 from '../../../../public/Home/WeddingStory/image1.png'
-import Img2 from '../../../../public/Home/WeddingStory/image3.png'
-import Img3 from '../../../../public/Home/WeddingStory/image2.png'
-import Img4 from '../../../../public/Home/WeddingStory/image4.png'
+import Img1 from '../../../../../public/Home/WeddingStory/image1.png'
+import Img2 from '../../../../../public/Home/WeddingStory/image3.png'
+import Img3 from '../../../../../public/Home/WeddingStory/image2.png'
+import Img4 from '../../../../../public/Home/WeddingStory/image4.png'
 
 const WeddingStory = () => {
     return (
