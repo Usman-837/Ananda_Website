@@ -30,7 +30,7 @@ const Latestnews = () => {
     ]
 
     return (
-        <div className='bg-[#FAF6F2] py-28'>
+        <div className='bg-[#FAF6F2] pb-28 pt-48'>
             <div className='container'>
                 <div className='text-center pb-14'>
                     <h1 className='Vujahday text-[#939580] text-4xl'>Latest News</h1>
