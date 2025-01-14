@@ -3,12 +3,42 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../../../public/Home/Logo/logo.png';
+import { CiTwitter } from "react-icons/ci";
+import { CiBasketball } from "react-icons/ci";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { PiSkypeLogoLight } from "react-icons/pi";
+
 
 const Footer = () => {
+
+    const Socialicons = [
+        {
+            id: 1,
+            icon: <CiTwitter />
+        },
+        {
+            id: 2,
+            icon: <CiBasketball />
+        },
+        {
+            id: 3,
+            icon: <FaFacebookF />
+        },
+        {
+            id: 5,
+            icon: <FaLinkedinIn />
+        },
+        {
+            id: 5,
+            icon: <PiSkypeLogoLight />
+        }
+    ]
+
     return (
         <div className='bg-[#F6EFEA] py-28'>
             <div className='container'>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col gap-y-6 items-center justify-center">
                     <div>
                         <Link href="/">
                             <Image src={logo} alt="logo" className="w-[134px]" />
@@ -39,6 +69,15 @@ const Footer = () => {
                             <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
+                    <div className='flex gap-x-4'>
+                        {
+                            Socialicons.map((data) => (
+                                <div key={data.id} className='bg-white w-10 h-10 rounded-full flex items-center justify-center text-[#939580]'>
+                                    {data.icon}
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </div>
