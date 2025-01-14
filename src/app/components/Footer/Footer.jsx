@@ -36,7 +36,7 @@ const Footer = () => {
     ]
 
     return (
-        <div className='bg-[#F6EFEA] py-28'>
+        <div className='bg-[#F6EFEA] py-20'>
             <div className='container'>
                 <div className="flex flex-col gap-y-6 items-center justify-center">
                     <div>
@@ -77,6 +77,9 @@ const Footer = () => {
                                 </div>
                             ))
                         }
+                    </div>
+                    <div>
+                        <p className='text-[#909090]'>© Copyright 2022 | All right reserved.</p>
                     </div>
                 </div>
             </div>
