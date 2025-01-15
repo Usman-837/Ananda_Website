@@ -63,7 +63,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li onClick={handleToggle}>
-              <Link href="/aboutus">About Us</Link>
+              <Link href="/about">About Us</Link>
             </li>
             <li onClick={handleToggle}>
               <Link href="/services">Services</Link>

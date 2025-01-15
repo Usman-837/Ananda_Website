@@ -7,11 +7,12 @@ import Welcome from '../components/About/Welcome/Welcome'
 import Teammembers from '../components/About/TeamMembers/Teammembers'
 import WeddingStory from '../components/Home/WeddingStory/WeddingStory'
 import Partners from '../components/Home/Partners/Partners'
-import Contact from '../components/Home/Contact/Contact'
+import Contact from '../components/About/Contact/Contact'
+import Footer from '../components/Home/Footer/Footer'
 
 const About = () => {
   return (
-    <div>
+    <div className='bg-[#FAF6F2]'>
       <Navbar />
       <Banner />
       <AboutUs/>
@@ -21,6 +22,7 @@ const About = () => {
       <WeddingStory/>
       <Partners/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
