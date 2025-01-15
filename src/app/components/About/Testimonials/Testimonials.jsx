@@ -9,11 +9,11 @@ const Testimonials = () => {
     return (
         <section className='bg-[#FAF6F2] py-28'>
             <div className='container'>
-                <div className='relative flex '>
-                    <div className='w-1/2'>
+                <div className='xl:relative flex max-xl:flex-col max-xl:gap-y-5 max-xl:justify-center max-xl:items-center'>
+                    <div className='w-1/2 max-xl:w-full'>
                         <Image src={testimonialimg} alt='testimonialimage' />
                     </div>
-                    <div className='bg-white p-4 w-1/2 my-10 absolute right-[40px]'>
+                    <div className='bg-white p-4 w-1/2 max-xl:w-full my-10 xl:absolute right-[40px] max-xl:right-0'>
                         <div className="space-y-4 px-10 py-16 max-sm:py-10 text-center flex flex-col items-center outline outline-2 outline-[#FAF6F2]">
                             <div className='flex text-4xl bg-transparent text-[#D7B5AB] font-semibold'>
                                 <TfiQuoteRight />
