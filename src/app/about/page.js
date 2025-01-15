@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/About/Navbar/Navbar'
+import Banner from '../components/About/Banner/Banner'
 
 const About = () => {
   return (
     <div>
-        <div className='container'>
-            <Navbar/>
-        </div>
+      <Navbar />
+      <Banner />
     </div>
   )
 }
