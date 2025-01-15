@@ -3,6 +3,7 @@ import Navbar from '../components/About/Navbar/Navbar'
 import Banner from '../components/About/Banner/Banner'
 import AboutUs from '../components/About/AboutUs/AboutUs'
 import Rating from '../components/About/Rating/Rating'
+import Welcome from '../components/About/Welcome/Welcome'
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       <Banner />
       <AboutUs/>
       <Rating/>
+      <Welcome/>
     </div>
   )
 }
