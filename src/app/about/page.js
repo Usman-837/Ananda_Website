@@ -9,6 +9,7 @@ import WeddingStory from '../components/Home/WeddingStory/WeddingStory'
 import Partners from '../components/Home/Partners/Partners'
 import Contact from '../components/About/Contact/Contact'
 import Footer from '../components/Home/Footer/Footer'
+import Testimonials from '../components/About/Testimonials/Testimonials'
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
       <Banner />
       <AboutUs/>
       <Rating/>
+      <Testimonials/>
       <Welcome/>
       <Teammembers/>
       <WeddingStory/>
