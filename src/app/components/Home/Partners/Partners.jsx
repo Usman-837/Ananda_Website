@@ -33,7 +33,7 @@ const Partners = () => {
     ]
 
     return (
-        <section className='py-28 pb-48 max-sm:pb-16'>
+        <section className='bg-[#FAF6F2] pb-48 max-sm:pb-16'>
             <div className='container'>
                 <div className='grid gap-y-5 grid-cols-5 max-lg:grid-cols-3 max-sm:grid-cols-1'>
                     {
