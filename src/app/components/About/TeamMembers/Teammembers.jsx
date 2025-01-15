@@ -39,16 +39,16 @@ const Teammembers = () => {
         <div className='bg-[#FAF6F2] py-28'>
             <div className='container'>
                 <div>
-                    <h1 className='text-[#939580] text-[35px] text-center'>Our Organizers</h1>
-                    <p className='uppercase text-center pt-3 text-[40px]'>Awesome Team Member</p>
+                    <h1 className='text-[#939580] text-[35px] max-sm:text-3xl text-center'>Our Organizers</h1>
+                    <p className='uppercase text-center pt-3 text-[40px] max-sm:text-2xl'>Awesome Team Member</p>
                 </div>
-                <div className='pt-14 grid grid-cols-4'>
+                <div className='pt-14 grid grid-cols-4 gap-5 max-laptop:gap-y-10 max-laptop:grid-cols-2'>
                     {
                         TeamMemberData.map((data) => (
                             <div key={data.id} className='flex flex-col items-center justify-center gap-y-3'>
                                 <Image src={data.img} alt='teammember' className='rounded-full' />
-                                <p className='text-[25px]'>{data.name}</p>
-                                <p className='text-lg text-[#939580]'>{data.title}</p>
+                                <p className='text-[25px] max-sm:text-[16px]'>{data.name}</p>
+                                <p className='text-lg max-sm:text-sm text-[#939580]'>{data.title}</p>
                             </div>
                         ))
                     }
