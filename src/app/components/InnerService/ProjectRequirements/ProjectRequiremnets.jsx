@@ -10,7 +10,7 @@ import eventimg from '../../../../../public/InnerService/ProjectRequirements/eve
 const ProjectRequiremnets = () => {
     return (
         <div className='py-28'>
-            <div className='container'>
+            <div>
                 <div>
                     <Image src={serviceimage} alt='serviceimage' />
                 </div>
@@ -32,7 +32,7 @@ const ProjectRequiremnets = () => {
                 </div>
                 <div className='pt-14'>
                     <h1 className='text-3xl max-sm:text-2xl font-medium max-sm:text-center'>Our Work Process</h1>
-                    <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-4 pt-10'>
+                    <div className='grid grid-cols-3 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-4 pt-10'>
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
                             <Image src={researchimg} alt='Research and Analytics' />
                             <h2 className='text-xl font-medium'>Research and analytics</h2>
