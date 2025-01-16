@@ -62,10 +62,10 @@ const OurServices = () => {
     <div className='py-28'>
       <div className='container'>
         <div>
-          <h1 className='text-center text-[35px] text-[#939580]'>Our Services</h1>
-          <p className='text-[40px] text-center pt-3 uppercase'>WHAT WE OFFER FOR YOU</p>
+          <h1 className='text-center text-[35px] max-sm:text-3xl text-[#939580]'>Our Services</h1>
+          <p className='text-[40px] text-center pt-3 uppercase max-sm:text-2xl'>WHAT WE OFFER FOR YOU</p>
         </div>
-        <div className='grid grid-cols-4 gap-y-4 pt-14'>
+        <div className='grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-y-4 pt-14'>
           {
             ServicesData.map((data) => (
               <div key={data.id} className='px-3'>
