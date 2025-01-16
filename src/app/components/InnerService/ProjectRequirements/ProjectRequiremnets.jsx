@@ -54,6 +54,15 @@ const ProjectRequiremnets = () => {
                         </div>
                     </div>
                 </div>
+                <div className='pt-12'>
+                    <h1 className='text-3xl max-sm:text-2xl font-medium max-sm:text-center py-6'>Service Solution</h1>
+                    <div className='flex flex-col gap-y-5'>
+                        <div className='bg-[#FFFFFF] text-[#848892] text-[15px] py-5 px-3'>We Can Save More Lifes With Your Helping Hand</div>
+                        <div className='bg-[#FFFFFF] text-[#848892] text-[15px] py-5 px-3'>Planning can help alleviate workplace stress and increase productivity.</div>
+                        <div className='bg-[#FFFFFF] text-[#848892] text-[15px] py-5 px-3'>Those who experiment the most, are able to innovate the best.</div>
+                        <div className='bg-[#FFFFFF] text-[#848892] text-[15px] py-5 px-3'>Understand Your Problem, You must understand the issue.</div>
+                    </div>
+                </div>
             </div>
         </div>
     )
