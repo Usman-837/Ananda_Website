@@ -1,7 +1,7 @@
 import React from 'react'
 import { CiSearch } from "react-icons/ci"
 import Image from 'next/image'
-import instagramim from '../../../../../public/InnerService/Sidebar/instagram.png'
+import instagramimg from '../../../../../public/InnerService/Sidebar/instagram.png'
 
 const Sidebar = () => {
     return (
@@ -37,7 +37,7 @@ const Sidebar = () => {
                     <div className="h-1 w-8 bg-pink-300 mb-2"></div>
                     <div className="h-1 w-24 bg-gray-300"></div>
                     <div className="pt-4">
-                        <Image src={instagramim} alt='instagram' />
+                        <Image src={instagramimg} alt='instagram' />
                     </div>
                 </div>
             </div>
