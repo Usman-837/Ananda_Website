@@ -25,18 +25,12 @@ const Navbar = () => {
               <Link href="/about">About Us</Link>
             </li>
             <li>
-              <Link href="/service">Service</Link>
-            </li>
-            <li>
               <Link href="/">
                 <Image src={logo} alt="logo" className="w-[134px]" />
               </Link>
             </li>
             <li>
-              <Link href="/vendors">Vendors</Link>
-            </li>
-            <li>
-              <Link href="/blog">Blog</Link>
+              <Link href="/service">Service</Link>
             </li>
             <li>
               <Link href="/contact">Contact</Link>
@@ -67,12 +61,6 @@ const Navbar = () => {
             </li>
             <li onClick={handleToggle}>
               <Link href="/service">Service</Link>
-            </li>
-            <li onClick={handleToggle}>
-              <Link href="/vendors">Vendors</Link>
-            </li>
-            <li onClick={handleToggle}>
-              <Link href="/blog">Blog</Link>
             </li>
             <li onClick={handleToggle}>
               <Link href="/contact">Contact</Link>

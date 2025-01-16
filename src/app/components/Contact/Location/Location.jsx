@@ -2,7 +2,7 @@ import React from 'react'
 
 const Location = () => {
     return (
-        <div className='pb-28'>
+        <div>
             <div class="w-full h-[400px] md:h-[500px] relative">
                 <iframe
                     class="w-full h-full rounded-md shadow-lg"
