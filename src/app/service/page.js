@@ -6,6 +6,8 @@ import Rating from '../components/About/Rating/Rating'
 import Testimonials from '../components/About/Testimonials/Testimonials'
 import Video from '../components/Service/Video/Video'
 import Partners from '../components/Home/Partners/Partners'
+import Contact from '../components/About/Contact/Contact'
+import Footer from '../components/Home/Footer/Footer'
 
 const Service = () => {
   return (
@@ -17,6 +19,8 @@ const Service = () => {
       <Testimonials/>
       <Video/>
       <Partners/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import videoimg from '../../../../../public/Service/Video/Video.png'
 const Video = () => {
     return (
         <section>
-            <Image src={videoimg} className='py-28' />
+            <Image src={videoimg} className='pb-28' />
             {/* <video 
                         controls
                         poster="/path-to-poster-image.jpg"
