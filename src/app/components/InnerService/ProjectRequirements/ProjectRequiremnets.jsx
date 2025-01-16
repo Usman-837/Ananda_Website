@@ -9,7 +9,7 @@ import eventimg from '../../../../../public/InnerService/ProjectRequirements/eve
 
 const ProjectRequiremnets = () => {
     return (
-        <div className='py-28'>
+        <div className='pt-28'>
             <div>
                 <div>
                     <Image src={serviceimage} alt='serviceimage' />

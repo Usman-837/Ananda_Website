@@ -9,6 +9,7 @@ import decoration from '../../../../../public/Service/OurServices/decoration.png
 import catering from '../../../../../public/Service/OurServices/catering.png'
 import entertainment from '../../../../../public/Service/OurServices/entertainment.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const OurServices = () => {
 
@@ -68,11 +69,13 @@ const OurServices = () => {
         <div className='grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-y-4 pt-14'>
           {
             ServicesData.map((data) => (
-              <div key={data.id} className='px-3'>
-                <div className='relative flex justify-center max-w-[421px] w-full p-[15px] bg-white rounded-md shadow-[#0000001A] shadow-lg mb-10'>
-                  <Image src={data.image} alt='cardimage1' />
-                  <div className='absolute bottom-[-22px] max-w-[200px] w-full bg-white py-4 text-center'>{data.name}</div>
-                </div>
+              <div key={data.id} className='px-3 hover:scale-110 transition-all duration-700'>
+                <Link href='/service/innerservice'>
+                  <div className='relative flex justify-center max-w-[421px] w-full p-[15px] bg-white rounded-md shadow-[#0000001A] shadow-lg mb-10'>
+                    <Image src={data.image} alt='cardimage1' />
+                    <div className='absolute bottom-[-22px] max-w-[200px] w-full bg-white py-4 text-center'>{data.name}</div>
+                  </div>
+                </Link>
               </div>
             ))
           }
