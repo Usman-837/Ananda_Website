@@ -59,7 +59,7 @@ const OurServices = () => {
 
 
   return (
-    <div className='py-28'>
+    <div className='pt-28'>
       <div className='container'>
         <div>
           <h1 className='text-center text-[35px] max-sm:text-3xl text-[#939580]'>Our Services</h1>
