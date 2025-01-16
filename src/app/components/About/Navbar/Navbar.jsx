@@ -34,12 +34,6 @@ const Navbar = () => {
                             <Link href="/service">Service</Link>
                         </li>
                         <li>
-                            <Link href="/vendors">Vendors</Link>
-                        </li>
-                        <li>
-                            <Link href="/blog">Blog</Link>
-                        </li>
-                        <li>
                             <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
@@ -73,12 +67,6 @@ const Navbar = () => {
                         </li>
                         <li onClick={handleToggle}>
                             <Link href="/service">Service</Link>
-                        </li>
-                        <li onClick={handleToggle}>
-                            <Link href="/vendors">Vendors</Link>
-                        </li>
-                        <li onClick={handleToggle}>
-                            <Link href="/blog">Blog</Link>
                         </li>
                         <li onClick={handleToggle}>
                             <Link href="/contact">Contact</Link>
