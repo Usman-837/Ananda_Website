@@ -17,39 +17,39 @@ const Navbar = () => {
     return (
         <div className='sticky top-0 z-50 bg-white'>
             <div className="container">
-                <div className="flex justify-between items-center py-2 z-50">
+                <div className="flex justify-between items-center py-1 z-50">
                     <div>
                         <Link href="/">
-                            <Image src={logo} alt="logo" className="w-[134px]" />
+                            <Image src={logo} alt="logo" className="w-onetwenty" />
                         </Link>
                     </div>
-                    <ul className="flex justify-center items-center gap-x-12 max-lg:gap-x-10 max-laptop:hidden">
-                        <li>
+                    <ul className="flex justify-center items-center gap-x-fortynine max-lg:gap-x-10 max-laptop:hidden text-base font-medium text-navmenucolor leading-twentythree">
+                        <li className='hover:text-SoftBeigePink'>
                             <Link href="/">Home</Link>
                         </li>
-                        <li>
+                        <li className='hover:text-SoftBeigePink'>
                             <Link href="/about">About Us</Link>
                         </li>
-                        <li>
+                        <li className='hover:text-SoftBeigePink'>
                             <Link href="/service">Service</Link>
                         </li>
-                        <li>
+                        <li className='hover:text-SoftBeigePink'>
                             <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
-                    <div class="flex items-center p-2 rounded-lg shadow-md max-w-md max-sm:hidden">
+                    <div class="flex items-center p-1 rounded-lg shadow-md max-w-md max-sm:hidden focus-within:outline focus-within:outline-2 focus-within:outline-SoftBeigePink">
                         <input
                             type="text"
                             placeholder="Search..."
                             className="flex-grow p-2 text-gray-700 border-none outline-none"
                         />
-                        <button className="p-2 text-xl text-gray-500 hover:text-gray-700">
+                        <button className="p-2 text-xl text-gray-500">
                             <CiSearch />
                         </button>
                     </div>
                     {/* Toggle Button */}
                     <div
-                        className="laptop:hidden right-8 top-4 text-2xl flex text-[#D7B5AB] cursor-pointer"
+                        className="laptop:hidden right-8 top-4 text-2xl flex text-SoftBeigePink cursor-pointer"
                         onClick={handleToggle}
                     >
                         <FaBars />
@@ -58,17 +58,17 @@ const Navbar = () => {
 
                 {/* Mobile Menu */}
                 {toggle && (
-                    <ul className="flex flex-col items-center gap-y-4 bg-white md:hidden z-50 h-svh py-5">
-                        <li onClick={handleToggle}>
+                    <ul className="flex flex-col items-center gap-y-fortynine bg-white md:hidden z-50 h-svh py-5 text-base font-medium text-navmenucolor leading-twentythree">
+                        <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
                             <Link href="/">Home</Link>
                         </li>
-                        <li onClick={handleToggle}>
+                        <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
                             <Link href="/about">About Us</Link>
                         </li>
-                        <li onClick={handleToggle}>
+                        <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
                             <Link href="/service">Service</Link>
                         </li>
-                        <li onClick={handleToggle}>
+                        <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
                             <Link href="/contact">Contact</Link>
                         </li>
                     </ul>

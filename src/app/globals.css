@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vujahday+Script&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,7 +13,6 @@
   margin: 0%;
   box-sizing: border-box;
 } 
-
 .Marcellus {
   font-family: "Marcellus", serif;
 }
@@ -24,6 +24,9 @@
 }
 .Vujahday {
   font-family: "Vujahday Script", serif;
+}
+.Jost {
+  font-family: "Jost", serif;
 }
 
 .container {
