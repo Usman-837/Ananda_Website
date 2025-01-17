@@ -23,7 +23,7 @@ const Memories = () => {
         },
         {
             id: 2,
-            name: 'Wedding Dress',
+            name: 'Wedding Regist',
             image: cardimage2,
         },
         {
@@ -64,7 +64,7 @@ const Memories = () => {
                 },
             },
             {
-                breakpoint: 1024,
+                breakpoint: 1280,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -91,22 +91,22 @@ const Memories = () => {
 
     return (
         <>
-            <h1 className='text-[65px] max-lg:text-5xl max-md:text-3xl max-sm:text-xl py-10 text-center Calligraffitti'>Planning Your Everlasting Memories</h1>
-            <div className='bg-[#FAF6F2] py-28'>
+            <h1 className='Calligraffitti text-sixtyfive text-NearBlack max-lg:text-5xl max-md:text-3xl max-sm:text-xl py-20 max-md:py-16 max-sm:py-12 tracking-0.5 text-center leading-fifty'>Planning Your Everlasting Memories</h1>
+            <div className='bg-[#FAF6F2] pt-28 max-sm:pt-16'>
                 <div className='container flex flex-col justify-center items-center'>
                     <div className='flex justify-between max-md:gap-y-8 max-md:flex-col pb-20'>
-                        <p className='w-1/2 max-md:w-full text-[42px] max-lg:text-4xl max-sm:text-xl Marcellus'>Experience Luxury <br /> experience caymanKind</p>
-                        <p className='w-1/2 max-md:w-full max-sm:text-sm border-l border-gray-300 pl-12 max-sm:pl-6 text-lg Roboto text-[#666666]'>Celebrations is an award-winning, full-service wedding planner based in Grand Cayman in the Caribbean. For over 30 years, we have worked with hundreds of couples, local and across the globe, bringing their Cayman Islands wedding or elopement dreams to life.</p>
+                        <p className='Marcellus w-1/2 max-md:w-full text-fortytwo max-lg:text-4xl max-sm:text-xl tracking-0.5 leading-fifty text-NearBlack'>Experience Luxury <br /> experience caymanKind</p>
+                        <p className='Roboto w-1/2 max-md:w-full max-sm:text-sm border-l border-gray-300 pl-12 max-sm:pl-6 text-lg text-DimGray leading-twentyseven tracking-0.5'>Celebrations is an award-winning, full-service wedding planner based in Grand Cayman in the Caribbean. For over 30 years, we have worked with hundreds of couples, local and across the globe, bringing their Cayman Islands wedding or elopement dreams to life.</p>
                     </div>
-                    <div className='flex max-lg:flex-col-reverse max-lg:gap-y-10 pb-44 pt-10'>
+                    <div className='flex max-lg:flex-col-reverse max-lg:gap-y-16 pb-36 max-sm:pb-24 pt-10 max-sm:pt-0'>
                         <div>
                             <Image src={Memoryimg} alt='memoryimg' />
                         </div>
                         <div className='flex flex-col justify-between max-sm:justify-center max-lg:gap-y-10'>
                             <div className='flex'>
                                 <div className='flex flex-col items-center justify-center text-center'>
-                                    <Image src={logo} alt='logo' className='w-36' />
-                                    <p className='Marcellus text-3xl max-sm:text-xl'>Live your magic and save your<br />
+                                    <Image src={logo} alt='logo' className='w-onefortyfive' />
+                                    <p className='Marcellus text-NearBlack text-4xl max-sm:text-xl leading-fifty tracking-0.5'>Live your magic and save your<br />
                                         precious love memories!</p>
                                 </div>
                                 <div>
@@ -114,12 +114,12 @@ const Memories = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col items-center justify-center text-center gap-y-5'>
-                                <h1 className='Vujahday text-5xl max-sm:text-4xl'>special moments</h1>
-                                <p className='text-[#666666]'>Introduce the bridal party and groomsmen with brief bios and<br />
+                                <h1 className='Vujahday text-sixtyfive max-sm:text-4xl leading-sixtyeight tracking-0.5'>special moments</h1>
+                                <p className='Roboto text-DimGray text-lg max-sm:text-sm leading-twentyseven tracking-0.5'>Introduce the bridal party and groomsmen with brief bios and<br />
                                     photos. Share fun facts or memorable stories about each member’s<br />
                                     relationship with the couple.
                                 </p>
-                                <button className='bg-[#D4B0A5] text-white px-11 py-3.5'>Appointment</button>
+                                <button className='Jost bg-SoftBeigePink text-white px-fortyfive py-fifteen textr-lg leading-27'>Appointment</button>
                             </div>
                         </div>
                     </div>
@@ -129,12 +129,11 @@ const Memories = () => {
                             {
                                 cardData.map((data) => (
                                     <div key={data.id} className='px-3'>
-                                        <div className='relative flex justify-center max-w-[421px] w-full p-[15px] bg-white rounded-md shadow-[#0000001A] shadow-lg mb-10'>
+                                        <div className='relative flex justify-center max-w-fourtwentytwo w-full p-fifteen bg-white rounded-md mb-10'>
                                             <Image src={data.image} alt='cardimage1' />
-                                            <div className='absolute bottom-[-22px] max-w-[200px] w-full bg-white py-4 text-center'>{data.name}</div>
+                                            <div className='absolute Jost text-SlateBlack text-twentytwo max-sm:text-lg max-sm:py-3 bottom-[-22px] max-w-[220px] max-sm:max-w-[180px] w-full bg-white text-center leading-sixty'>{data.name}</div>
                                         </div>
                                     </div>
-
                                 ))
                             }
                         </Slider>

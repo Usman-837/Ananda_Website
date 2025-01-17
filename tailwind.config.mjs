@@ -15,20 +15,41 @@ export default {
         'laptop': '993px',
       },
       width: {
-        'onethirtyfour': '134px',
         'hundred': '100px',
-        'onetwenty': '120px'
+        'onetwenty': '120px',
+        'onethirtyfour': '134px',
+        'onefortyfive': '145px',
+        'fourtwentytwo': '422px'
       },
       lineHeight: {
         'twentythree': '23px',
+        'twentyseven': '27px',
+        'fifty': '50px',
+        'sixty': '60px',
+        'sixtyeight': '68px',
       },
       colors: {
-        'navmenucolor': '#323232',
-        'SoftBeigePink': '#D4B0A5'
+        'SlateBlack': '#323232',
+        'SoftBeigePink': '#D4B0A5',
+        'NearBlack': '#333333',
+        'DimGray': '#666666'
       },
       gap: {
         'fortynine': '49px',
-      }
+      },
+      fontSize: {
+        'twentytwo': '22px',
+        'fortytwo': '42px',
+        'sixtyfive': '65px',
+      },
+      letterSpacing: {
+        '0.5': '0.5px'
+      },
+      padding: {
+        'fortyfive': '45px',
+        'thirtyone': '31px',
+        'fifteen': '15px',
+      }  
     },
   },
   plugins: [],

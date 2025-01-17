@@ -23,7 +23,7 @@ const Navbar = () => {
                             <Image src={logo} alt="logo" className="w-onetwenty" />
                         </Link>
                     </div>
-                    <ul className="flex justify-center items-center gap-x-fortynine max-lg:gap-x-10 max-laptop:hidden text-base font-medium text-navmenucolor leading-twentythree">
+                    <ul className="flex justify-center items-center gap-x-fortynine max-lg:gap-x-10 max-laptop:hidden text-base font-medium text-SlateBlack leading-twentythree">
                         <li className='hover:text-SoftBeigePink'>
                             <Link href="/">Home</Link>
                         </li>
@@ -58,7 +58,7 @@ const Navbar = () => {
 
                 {/* Mobile Menu */}
                 {toggle && (
-                    <ul className="flex flex-col items-center gap-y-fortynine bg-white md:hidden z-50 h-svh py-5 text-base font-medium text-navmenucolor leading-twentythree">
+                    <ul className="flex flex-col items-center gap-y-fortynine bg-white md:hidden z-50 h-svh py-5 text-base font-medium text-SlateBlack leading-twentythree">
                         <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
                             <Link href="/">Home</Link>
                         </li>

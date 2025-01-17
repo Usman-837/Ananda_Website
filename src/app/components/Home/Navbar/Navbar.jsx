@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className='sticky top-0 z-50 bg-white'>
       <div className="container">
         <div className="flex justify-center max-md:justify-between items-center py-1">
-          <ul className="Jost flex justify-center items-center gap-x-fortynine max-lg:gap-x-10 max-md:hidden text-base font-medium text-navmenucolor leading-twentythree">
+          <ul className="Jost flex justify-center items-center gap-x-fortynine max-lg:gap-x-10 max-md:hidden text-base font-medium text-SlateBlack leading-twentythree">
             <li className='hover:text-SoftBeigePink'>
               <Link href="/">Home</Link>
             </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {toggle && (
-          <ul className="Jost flex flex-col items-center gap-y-fortynine bg-white md:hidden z-50 h-svh py-5 text-base font-medium text-navmenucolor leading-twentythree">
+          <ul className="Jost flex flex-col items-center gap-y-fortynine bg-white md:hidden z-50 h-svh py-5 text-base font-medium text-SlateBlack leading-twentythree">
             <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
               <Link href="/">Home</Link>
             </li>
