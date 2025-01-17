@@ -26,8 +26,10 @@ export default {
       },
       lineHeight: {
         'twentythree': '23px',
+        'twentyfive': '25px',
         'twentyseven': '27px',
         'thirtytwo': '32px',
+        'forty': '40px',
         'fifty': '50px',
         'fiftyone': '51px',
         'sixty': '60px',
@@ -39,6 +41,7 @@ export default {
         'SoftBeigePink': '#D4B0A5',
         'NearBlack': '#333333',
         'DimGray': '#666666',
+        'SteelGray': '#858585',
         'DustyGreen': '#939580',
         'DustyGrayBlue': '#848892',
         'WarmWhite': '#FAF6F2'
@@ -48,6 +51,7 @@ export default {
       },
       fontSize: {
         'twentytwo': '22px',
+        'twentyfive': '25px',
         'thirtyfive': '35px',
         'fortytwo': '42px',
         'fifty': '50px',
@@ -57,9 +61,12 @@ export default {
         '0.5': '0.5px'
       },
       padding: {
-        'fortyfive': '45px',
-        'thirtyone': '31px',
         'fifteen': '15px',
+        'thirtyone': '31px',
+        'forty': '40px',
+        'fortyfive': '45px',
+        'fifty': '50px',
+        'sixtyfive': '65px',
       }
     },
   },

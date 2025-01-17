@@ -20,7 +20,7 @@ const Testimonials = () => {
             id: 2,
             name: 'James Harris',
             date: '23.05.2022',
-            des: 'Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros,porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.',
+            des: 'Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.',
         },
         {
             id: 3,
@@ -31,6 +31,7 @@ const Testimonials = () => {
         {
             id: 4,
             name: 'Robert Clark',
+            date: '23.05.2022',
             des: 'Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.',
         }
     ]
@@ -75,23 +76,23 @@ const Testimonials = () => {
 
 
     return (
-        <section className='bg-[#FAF6F2] py-28'>
+        <section className='bg-WarmWhite py-28'>
             <div className='container'>
                 <div className="flex-1">
                     <Slider {...settings}>
                         {testimonialData.map((data) => (
                             <div className="px-5 mb-8">
                                 <div className='bg-white p-4'>
-                                    <div key={data.id} className="space-y-4 px-10 py-16 max-sm:py-10 text-center flex flex-col items-center outline outline-2 outline-[#FAF6F2]">
-                                        <div className='flex text-4xl bg-transparent text-[#D7B5AB] font-semibold'>
+                                    <div key={data.id} className="space-y-4 px-sixtyfive max-sm:px-2 pt-forty max-sm:pt-10 pb-fifty max-sm:pb-10 max-sm:py-10 text-center flex flex-col items-center outline outline-2 outline-[#FAF6F2]">
+                                        <div className='flex text-4xl bg-transparent text-SoftBeigePink font-semibold'>
                                             <TfiQuoteRight />
                                         </div>
-                                        <div>
+                                        <div className='Jost text-lg max-sm:text-sm leading-thirtytwo text-SlateBlack '>
                                             <p>{data.des}</p>
                                         </div>
-                                        <div className="flex gap-y-3 flex-col items-center text-[#939580]">
-                                            <p className="text-[25px]">{data.name}</p>
-                                            <p className='text-base'>Wedding. {data.date} </p>
+                                        <div className="flex gap-y-3 flex-col items-center">
+                                            <p className="text-twentyfive max-sm:text-twentytwo leading-forty text-DustyGreen">{data.name}</p>
+                                            <p className='Jost text-base max-sm:text-sm text-SteelGray leading-twentyfive'>Wedding. {data.date} </p>
                                         </div>
                                     </div>
                                 </div>
