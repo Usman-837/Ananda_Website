@@ -92,7 +92,7 @@ const Memories = () => {
     return (
         <>
             <h1 className='Calligraffitti text-sixtyfive text-NearBlack max-lg:text-5xl max-md:text-3xl max-sm:text-xl py-20 max-md:py-16 max-sm:py-12 tracking-0.5 text-center leading-fifty'>Planning Your Everlasting Memories</h1>
-            <div className='bg-[#FAF6F2] pt-28 max-sm:pt-16'>
+            <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
                 <div className='container flex flex-col justify-center items-center'>
                     <div className='flex justify-between max-md:gap-y-8 max-md:flex-col pb-20'>
                         <p className='Marcellus w-1/2 max-md:w-full text-fortytwo max-lg:text-4xl max-sm:text-xl tracking-0.5 leading-fifty text-NearBlack'>Experience Luxury <br /> experience caymanKind</p>
