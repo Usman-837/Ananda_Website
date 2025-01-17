@@ -5,7 +5,7 @@ import Aboutimg from '../../../../../public/Home/About/aboutimg.png'
 
 const About = () => {
     return (
-        <div className='bg-WarmWhite pt-28'>
+        <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
             <div className='container'>
                 <div className='relative flex max-laptop:flex-col max-laptop:gap-y-10'>
                     <div className='space-y-5 absolute max-md:static max-w-sixhundred w-full max-md:text-center'>

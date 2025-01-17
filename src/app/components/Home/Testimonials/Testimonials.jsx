@@ -76,7 +76,7 @@ const Testimonials = () => {
 
 
     return (
-        <section className='bg-WarmWhite py-28'>
+        <section className='bg-WarmWhite pt-28 max-sm:pt-16'>
             <div className='container'>
                 <div className="flex-1">
                     <Slider {...settings}>

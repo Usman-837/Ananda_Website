@@ -22,7 +22,8 @@ export default {
         'fourtwentytwo': '422px',
       },
       maxWidth: {
-        'sixhundred': '600px'
+        'sixhundred': '600px',
+        'sixthirtythree': '633px'
       },
       lineHeight: {
         'twentythree': '23px',
@@ -32,6 +33,7 @@ export default {
         'forty': '40px',
         'fifty': '50px',
         'fiftyone': '51px',
+        'fiftyeight': '58px',
         'sixty': '60px',
         'sixtyeight': '68px',
         'seventytwo': '72px',
@@ -53,6 +55,7 @@ export default {
         'twentytwo': '22px',
         'twentyfive': '25px',
         'thirtyfive': '35px',
+        'forty': '40px',
         'fortytwo': '42px',
         'fifty': '50px',
         'sixtyfive': '65px',
