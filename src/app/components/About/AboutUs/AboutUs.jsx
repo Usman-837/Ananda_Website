@@ -6,7 +6,7 @@ import aboutimg2 from '../../../../../public/About/About/image2.png'
 
 const AboutUs = () => {
     return (
-        <div className='bg-WarmWhite pt-28'>
+        <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
             <div className='container'>
                 <div>
                     <div className='grid grid-cols-2 max-md:grid-cols-1 gap-12'>

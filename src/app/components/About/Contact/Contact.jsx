@@ -44,7 +44,7 @@ const Contact = () => {
 
     return (
         <section
-            className="relative w-full mt-14 mb-36 max-sm:mb-0 h-[600px] max-sm:h-screen bg-cover bg-center"
+            className="relative w-full mt-14 max-sm:mt-8 mb-36 max-sm:mb-0 h-[600px] max-sm:h-auto bg-cover bg-center"
             style={{
                 backgroundImage: `url(${contactimg1.src})`,
             }}
@@ -123,7 +123,7 @@ const Contact = () => {
                         <div className='flex items-center justify-center'>
                             <button
                                 type="submit"
-                                className="px-11 max-sm:px-6 py-[15px] max-sm:text-sm mt-6 bg-white text-[#D9B8B1] font-semibold rounded-md hover:bg-gray-200 transition"
+                                className="px-11 max-sm:px-6 py-fifteen max-sm:text-sm mt-6 bg-white text-[#D9B8B1] font-semibold rounded-md hover:bg-gray-200 transition"
                             >
                                 SEND AN INQUIRY
                             </button>

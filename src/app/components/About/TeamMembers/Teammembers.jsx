@@ -36,7 +36,7 @@ const Teammembers = () => {
 
 
     return (
-        <div className='bg-WarmWhite pt-28'>
+        <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
             <div className='container'>
                 <div>
                     <h1 className='text-DustyGreen text-thirtyfive max-sm:text-3xl text-center'>Our Organizers</h1>
