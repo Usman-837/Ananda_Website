@@ -40,37 +40,37 @@ const Footer = () => {
                 <div className="flex flex-col gap-y-6 items-center justify-center">
                     <div>
                         <Link href="/">
-                            <Image src={logo} alt="logo" className="w-[134px]" />
+                            <Image src={logo} alt="logo" className="w-oneforty" />
                         </Link>
                     </div>
-                    <ul className="flex text-lg justify-center items-center gap-x-10 max-lg:gap-x-10 max-md:hidden text-[#525252]">
+                    <ul className="Jost flex text-lg justify-center items-center gap-x-10 max-lg:gap-x-10 max-md:hidden text-Gray">
                         <li>
                             <Link href="/">Home</Link>
                         </li>
                         <li className='flex items-center gap-x-2'>
-                            <p className='w-2 h-2 bg-[#D4B0A5] rounded-full'></p>
+                            <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>
                             <Link href="/aboutus">About Us</Link>
                         </li>
                         <li className='flex items-center gap-x-2'>
-                            <p className='w-2 h-2 bg-[#D4B0A5] rounded-full'></p>
+                            <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>
                             <Link href="/services">Services</Link>
                         </li>
                         <li className='flex items-center gap-x-2'>
-                            <p className='w-2 h-2 bg-[#D4B0A5] rounded-full'></p>
+                            <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>
                             <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
                     <div className='flex gap-x-4'>
                         {
                             Socialicons.map((data) => (
-                                <div key={data.id} className='bg-white w-10 h-10 rounded-full flex items-center justify-center text-[#939580]'>
+                                <div key={data.id} className='bg-white w-10 h-10 rounded-full flex items-center justify-center text-DustyGreen'>
                                     {data.icon}
                                 </div>
                             ))
                         }
                     </div>
                     <div>
-                        <p className='text-[#909090]'>© Copyright 2022 | All right reserved.</p>
+                        <p className='Jost text-[#909090] text-lg leading-ninety'>© Copyright 2022 | All right reserved.</p>
                     </div>
                 </div>
             </div>

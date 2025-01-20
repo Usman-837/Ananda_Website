@@ -18,6 +18,7 @@ export default {
         'hundred': '100px',
         'onetwenty': '120px',
         'onethirtyfour': '134px',
+        'oneforty': '140px',
         'onefortyfive': '145px',
         'fourtwentytwo': '422px',
       },
@@ -25,7 +26,6 @@ export default {
         'sixhundred': '600px',
         'sixthirtythree': '633px',
         'sixhundredninety': '690px',
-        'twohundredten': '210px'
       },
       lineHeight: {
         'twentythree': '23px',
@@ -42,6 +42,7 @@ export default {
         'sixtyeight': '68px',
         'seventytwo': '72px',
         'seventynine': '79px',
+        'ninety': '90px',
       },
       colors: {
         'SlateBlack': '#323232',
@@ -53,7 +54,8 @@ export default {
         'DustyGrayBlue': '#848892',
         'WarmWhite': '#FAF6F2',
         'LightGray': '#D3D3D3',
-        'SoftSand': '#D2ADA2'
+        'SoftSand': '#D2ADA2',
+        'Gray': '#525252 '
       },
       gap: {
         'fortynine': '49px',
