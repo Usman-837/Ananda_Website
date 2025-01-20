@@ -81,16 +81,16 @@ const Testimonials = () => {
                 <div className="flex-1">
                     <Slider {...settings}>
                         {testimonialData.map((data) => (
-                            <div className="px-5 mb-8">
+                            <div className="px-5 max-sm:px-0 mb-8">
                                 <div className='bg-white p-4'>
-                                    <div key={data.id} className="space-y-4 px-sixtyfive max-sm:px-2 pt-forty max-sm:pt-10 pb-fifty max-sm:pb-10 max-sm:py-10 text-center flex flex-col items-center outline outline-2 outline-[#FAF6F2]">
-                                        <div className='flex text-4xl bg-transparent text-SoftBeigePink font-semibold'>
+                                    <div key={data.id} className="space-y-4 px-sixtyfive max-sm:px-2 pt-forty max-sm:pt-6 pb-fifty max-sm:pb-6 text-center flex flex-col items-center outline outline-2 outline-[#FAF6F2]">
+                                        <div className='flex text-4xl max-sm:text-3xl bg-transparent text-SoftBeigePink font-semibold'>
                                             <TfiQuoteRight />
                                         </div>
                                         <div className='Jost text-lg max-sm:text-sm leading-thirtytwo text-SlateBlack '>
                                             <p>{data.des}</p>
                                         </div>
-                                        <div className="flex gap-y-3 flex-col items-center">
+                                        <div className="flex gap-y-3 max-sm:gap-y-1 flex-col items-center">
                                             <p className="text-twentyfive max-sm:text-twentytwo leading-forty text-DustyGreen">{data.name}</p>
                                             <p className='Jost text-base max-sm:text-sm text-SteelGray leading-twentyfive'>Wedding. {data.date} </p>
                                         </div>
