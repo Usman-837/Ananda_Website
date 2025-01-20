@@ -23,20 +23,25 @@ export default {
       },
       maxWidth: {
         'sixhundred': '600px',
-        'sixthirtythree': '633px'
+        'sixthirtythree': '633px',
+        'sixhundredninety': '690px',
+        'twohundredten': '210px'
       },
       lineHeight: {
         'twentythree': '23px',
         'twentyfive': '25px',
         'twentyseven': '27px',
+        'twentynine': '29px',
         'thirtytwo': '32px',
         'forty': '40px',
+        'fortynine': '49px',
         'fifty': '50px',
         'fiftyone': '51px',
         'fiftyeight': '58px',
         'sixty': '60px',
         'sixtyeight': '68px',
         'seventytwo': '72px',
+        'seventynine': '79px',
       },
       colors: {
         'SlateBlack': '#323232',
@@ -46,18 +51,24 @@ export default {
         'SteelGray': '#858585',
         'DustyGreen': '#939580',
         'DustyGrayBlue': '#848892',
-        'WarmWhite': '#FAF6F2'
+        'WarmWhite': '#FAF6F2',
+        'LightGray': '#D3D3D3',
+        'SoftSand': '#D2ADA2'
       },
       gap: {
         'fortynine': '49px',
       },
       fontSize: {
+        'twenty': '20px',
         'twentytwo': '22px',
         'twentyfive': '25px',
+        'twentyeight': '28px',
         'thirtyfive': '35px',
+        'thirtyfour': '34px',
         'forty': '40px',
         'fortytwo': '42px',
         'fifty': '50px',
+        'fiftyfive': '55px',
         'sixtyfive': '65px',
       },
       letterSpacing: {
@@ -70,6 +81,8 @@ export default {
         'fortyfive': '45px',
         'fifty': '50px',
         'sixtyfive': '65px',
+        'hundred': '100px',
+        'onethousandfifteen': '115px',
       }
     },
   },

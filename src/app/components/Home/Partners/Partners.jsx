@@ -33,12 +33,12 @@ const Partners = () => {
     ]
 
     return (
-        <section className='bg-[#FAF6F2] pb-48 max-sm:pb-16'>
+        <section className='bg-WarmWhite pt-28 max-sm:pt-16 pb-48 max-sm:pb-16'>
             <div className='container'>
                 <div className='grid gap-y-5 grid-cols-5 max-lg:grid-cols-3 max-sm:grid-cols-1'>
                     {
                         Partnerslogo.map((data) => (
-                            <div key={data.id} className='border border-[#D3D3D3] p-12'>
+                            <div key={data.id} className='border border-LightGray p-12'>
                                 <Image src={data.img} alt='partners' />
                             </div>
                         ))
