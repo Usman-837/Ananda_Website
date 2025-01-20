@@ -14,7 +14,7 @@ const WeddingStory = () => {
                     <h1 className='Vujahday leading-fifty text-center text-DustyGreen text-thirtyfive max-sm:text-4xl'>Amazing Work</h1>
                     <h2 className='Jost text-forty text-SlateBlack leading-fiftyeight max-sm:text-2xl text-center'>FEATURED WEDDING STORY</h2>
                 </div>
-                <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-10 py-10'>
+                <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-10 py-10 max-sm:text-center'>
                     <div className='flex flex-col gap-10'>
                         <div className='space-y-4'>
                             <Image src={Img1} alt='Ali & Robert Image' className='max-w-sixthirtythree w-full' />

@@ -131,7 +131,7 @@ const Memories = () => {
                                     <div key={data.id} className='px-3'>
                                         <div className='relative flex justify-center max-w-fourtwentytwo w-full p-fifteen bg-white rounded-md mb-10'>
                                             <Image src={data.image} alt='cardimage1' />
-                                            <div className='absolute Jost text-SlateBlack text-twentytwo max-sm:text-lg max-sm:py-3 bottom-[-22px] max-w-[220px] max-sm:max-w-[180px] w-full bg-white text-center leading-sixty'>{data.name}</div>
+                                            <div className='absolute Jost text-SlateBlack hover:text-white text-twentytwo max-sm:text-lg max-sm:py-3 bottom-[-22px] max-w-[220px] max-sm:max-w-[180px] w-full bg-white hover:bg-SlateBlack text-center leading-sixty'>{data.name}</div>
                                         </div>
                                     </div>
                                 ))
