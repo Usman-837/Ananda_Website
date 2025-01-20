@@ -36,19 +36,19 @@ const Teammembers = () => {
 
 
     return (
-        <div className='bg-[#FAF6F2] py-28'>
+        <div className='bg-WarmWhite pt-28'>
             <div className='container'>
                 <div>
-                    <h1 className='text-[#939580] text-[35px] max-sm:text-3xl text-center'>Our Organizers</h1>
-                    <p className='uppercase text-center pt-3 text-[40px] max-sm:text-2xl'>Awesome Team Member</p>
+                    <h1 className='text-DustyGreen text-thirtyfive max-sm:text-3xl text-center'>Our Organizers</h1>
+                    <p className='text-SlateBlack uppercase text-center pt-3 text-forty leading-fiftyeight max-sm:text-2xl'>Awesome Team Member</p>
                 </div>
                 <div className='pt-14 grid grid-cols-4 gap-5 max-laptop:gap-y-10 max-laptop:grid-cols-2'>
                     {
                         TeamMemberData.map((data) => (
                             <div key={data.id} className='flex flex-col items-center justify-center gap-y-3'>
                                 <Image src={data.img} alt='teammember' className='rounded-full' />
-                                <p className='text-[25px] max-sm:text-[16px]'>{data.name}</p>
-                                <p className='text-lg max-sm:text-sm text-[#939580]'>{data.title}</p>
+                                <p className='text-twentyfive text-SlateBlack max-sm:text-base'>{data.name}</p>
+                                <p className='text-lg max-sm:text-sm text-DustyGreen leading-twentyseven'>{data.title}</p>
                             </div>
                         ))
                     }

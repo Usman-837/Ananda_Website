@@ -72,6 +72,7 @@ export default {
         'fifty': '50px',
         'fiftyfive': '55px',
         'sixtyfive': '65px',
+        'eighty': '80px',
       },
       letterSpacing: {
         '0.5': '0.5px'
