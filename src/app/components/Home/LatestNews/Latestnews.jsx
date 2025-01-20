@@ -30,7 +30,7 @@ const Latestnews = () => {
     ]
 
     return (
-        <div className='bg-WarmWhite pb-28 pt-48 max-sm:pt-16'>
+        <div className='bg-WarmWhite pb-16 pt-48 max-sm:pt-16'>
             <div className='container'>
                 <div className='text-center pb-14'>
                     <h1 className='Vujahday text-DustyGreen text-thirtyfive max-sm:text-4xl leading-fifty max-sm:pb-5'>Latest News</h1>
@@ -55,7 +55,7 @@ const Latestnews = () => {
                         {
                             NewsData.map((data) => (
                                 <div key={data.id} className='flex gap-x-6 max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:text-center max-sm:gap-y-5'>
-                                    <Image src={data.img} alt='latestnews'/>
+                                    <Image src={data.img} alt='latestnews' />
                                     <div className='space-y-4'>
                                         <p className='text-twentyeight text-SlateBlack max-sm:text-xl leading-9'>{data.title}</p>
                                         <p className='text-DustyGreen leading-twentyseven text-lg pl-5'>{data.date}</p>

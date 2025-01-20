@@ -35,7 +35,7 @@ const Footer = () => {
     ]
 
     return (
-        <div className='bg-[#F6EFEA] py-20'>
+        <div className='bg-[#F6EFEA] py-20 max-sm:py-8'>
             <div className='container'>
                 <div className="flex flex-col gap-y-6 items-center justify-center">
                     <div>
@@ -72,7 +72,7 @@ const Footer = () => {
                         }
                     </div>
                     <div>
-                        <p className='Jost text-[#909090] text-lg leading-ninety'>© Copyright 2022 | All right reserved.</p>
+                        <p className='Jost text-[#909090] text-lg max-sm:text-base leading-ninety'>© Copyright 2025 | All right reserved.</p>
                     </div>
                 </div>
             </div>

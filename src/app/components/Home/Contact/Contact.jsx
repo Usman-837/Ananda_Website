@@ -50,7 +50,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="relative w-full h-[600px] max-sm:h-screen bg-cover bg-center"
+        <section className="relative w-full h-[600px] max-sm:h-auto bg-cover bg-center"
             style={{
                 backgroundImage: `url(${contactimg1.src})`,
             }}>

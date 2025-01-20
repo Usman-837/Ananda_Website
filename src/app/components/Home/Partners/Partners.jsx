@@ -6,6 +6,9 @@ import Partner2 from '../../../../../public/Home/Partners/partner2.png'
 import Partner3 from '../../../../../public/Home/Partners/partner3.png'
 import Partner4 from '../../../../../public/Home/Partners/partner4.png'
 import Partner5 from '../../../../../public/Home/Partners/partner5.png'
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const Partners = () => {
 
@@ -32,18 +35,61 @@ const Partners = () => {
         },
     ]
 
+    var settings = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        cssEase: "linear",
+        pauseOnHover: true,
+        pauseOnFocus: true,
+        responsive: [
+            {
+                breakpoint: 10000,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    infinite: true,
+                },
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    initialSlide: 2,
+                },
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    };
+
+
     return (
-        <section className='bg-WarmWhite pt-28 max-sm:pt-16 pb-48 max-sm:pb-16'>
+        <section className='bg-WarmWhite pt-28 max-sm:pt-8 pb-48 max-sm:pb-16'>
             <div className='container'>
-                <div className='grid gap-y-5 grid-cols-5 max-lg:grid-cols-3 max-sm:grid-cols-1'>
-                    {
-                        Partnerslogo.map((data) => (
-                            <div key={data.id} className='border border-LightGray p-12'>
-                                <Image src={data.img} alt='partners' />
-                            </div>
-                        ))
-                    }
-                </div>
+                {
+                    <Slider {...settings}>
+                        {
+                            Partnerslogo.map((data) => (
+                                <div className='flex px-3 max-sm:px-1 pb-5'>
+                                    <div key={data.id} className='flex items-center justify-center border border-LightGray p-12 max-sm:p-4 h-36'>
+                                        <Image src={data.img} alt='partners' />
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </Slider>
+                }
             </div>
         </section>
     )
