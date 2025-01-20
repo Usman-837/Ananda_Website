@@ -49,11 +49,11 @@ const Footer = () => {
                         </li>
                         <li className='flex items-center gap-x-2'>
                             <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>
-                            <Link href="/aboutus">About Us</Link>
+                            <Link href="/abou">About Us</Link>
                         </li>
                         <li className='flex items-center gap-x-2'>
                             <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>
-                            <Link href="/services">Services</Link>
+                            <Link href="/service">Services</Link>
                         </li>
                         <li className='flex items-center gap-x-2'>
                             <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>
@@ -63,9 +63,11 @@ const Footer = () => {
                     <div className='flex gap-x-4'>
                         {
                             Socialicons.map((data) => (
-                                <div key={data.id} className='bg-white w-10 h-10 rounded-full flex items-center justify-center text-DustyGreen'>
-                                    {data.icon}
-                                </div>
+                                <Link href='#'>
+                                    <div key={data.id} className='bg-white hover:bg-SoftBeigePink hover:text-white w-10 h-10 rounded-full flex items-center justify-center text-DustyGreen'>
+                                        {data.icon}
+                                    </div>
+                                </Link>
                             ))
                         }
                     </div>

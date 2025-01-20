@@ -119,7 +119,7 @@ const Memories = () => {
                                     photos. Share fun facts or memorable stories about each member’s<br />
                                     relationship with the couple.
                                 </p>
-                                <button className='Jost bg-SoftBeigePink text-white px-fortyfive py-fifteen textr-lg leading-27'>Appointment</button>
+                                <button className='Jost bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen textr-lg leading-27'>Appointment</button>
                             </div>
                         </div>
                     </div>

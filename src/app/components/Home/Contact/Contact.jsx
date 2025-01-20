@@ -22,8 +22,8 @@ const Contact = () => {
 
         // EmailJS integration
         emailjs.send(
-            'service_9c91f8f', 
-            'template_y92q3f9', 
+            'service_9c91f8f',
+            'template_y92q3f9',
             {
                 name: formData.name,
                 email: formData.email,
@@ -33,20 +33,20 @@ const Contact = () => {
             },
             'GYkUsD2PjtM-aUVWJ'
         )
-        .then(() => {
-            alert('Your inquiry has been sent successfully!');
-            setFormData({
-                name: '',
-                email: '',
-                wedding_date: '',
-                guests: '',
-                meal: ''
+            .then(() => {
+                alert('Your inquiry has been sent successfully!');
+                setFormData({
+                    name: '',
+                    email: '',
+                    wedding_date: '',
+                    guests: '',
+                    meal: ''
+                });
+            })
+            .catch((error) => {
+                console.error('Failed to send the inquiry:', error);
+                alert('There was an error sending your inquiry. Please try again later.');
             });
-        })
-        .catch((error) => {
-            console.error('Failed to send the inquiry:', error);
-            alert('There was an error sending your inquiry. Please try again later.');
-        });
     };
 
     return (
@@ -70,6 +70,7 @@ const Contact = () => {
                                 name="name"
                                 value={formData.name}
                                 onChange={handleChange}
+                                required
                                 className="w-full border-b border-[#EDCCC1] bg-transparent text-white focus:outline-none focus:border-gray-300"
                             />
                         </div>
@@ -81,6 +82,7 @@ const Contact = () => {
                                 name="email"
                                 value={formData.email}
                                 onChange={handleChange}
+                                required
                                 className="w-full border-b border-[#EDCCC1] bg-transparent text-white focus:outline-none focus:border-gray-300"
                             />
                         </div>
@@ -92,6 +94,7 @@ const Contact = () => {
                                 name="wedding_date"
                                 value={formData.wedding_date}
                                 onChange={handleChange}
+                                required
                                 className="w-full border-b border-[#EDCCC1] bg-transparent text-white focus:outline-none focus:border-gray-300"
                             />
                         </div>
@@ -102,6 +105,7 @@ const Contact = () => {
                                 name="guests"
                                 value={formData.guests}
                                 onChange={handleChange}
+                                required
                                 className="w-full border-b border-[#EDCCC1] bg-transparent text-white focus:outline-none focus:border-gray-300">
                                 <option value="" disabled className="bg-[#D9B8B1]"></option>
                                 <option value="50" className="bg-[#D9B8B1]">Up to 50</option>
@@ -116,6 +120,7 @@ const Contact = () => {
                                 name="meal"
                                 value={formData.meal}
                                 onChange={handleChange}
+                                required
                                 className="w-full border-b border-[#EDCCC1] bg-transparent text-white focus:outline-none focus:border-gray-300">
                                 <option value="" disabled className="bg-[#D9B8B1]"></option>
                                 <option value="veg" className="bg-[#D9B8B1]">Vegetarian</option>
@@ -124,7 +129,7 @@ const Contact = () => {
                             </select>
                         </div>
                         <div className='flex items-center justify-center'>
-                            <button type="submit" className="px-11 max-sm:px-6 py-fifteen max-sm:text-sm mt-6 bg-white text-[#D9B8B1]  font-semibold rounded-md hover:bg-gray-200 transition">
+                            <button type="submit" className="px-11 max-sm:px-6 py-fifteen max-sm:text-sm mt-6 bg-white hover:bg-SlateBlack text-[#D9B8B1] hover:text-white font-semibold rounded-md transition">
                                 SEND AN INQUIRY
                             </button>
                         </div>

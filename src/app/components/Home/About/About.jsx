@@ -14,7 +14,7 @@ const About = () => {
                             Planner & Decor.</p>
                         <p className='Jost leading-thirtytwo text-DustyGreen text-lg'>Convallis gravida odio viverra nisi, aliquam sem netus. Sed at semper at lacus. Nam integer nunc pellentesque nunc pulvinar donec scelerisque. Malesuada massa facilisis aliquam nunc ut
                             nisl tincidunt nibh. Massa feugiat vitae habitant metus viverra. Praesent massa habitant sapien odio ac scelerisque praesent id.</p>
-                        <button className='bg-SoftBeigePink text-white px-fortyfive py-fifteen text-lg leading-twentyseven'>Appointment</button>
+                        <button className='bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen text-lg leading-twentyseven'>Appointment</button>
                     </div>
                     <div className='pl-72 max-md:pl-0 pt-5'>
                         <Image src={Aboutimg} alt='aboutimg' />
