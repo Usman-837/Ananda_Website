@@ -23,6 +23,8 @@ export default {
         'fourtwentytwo': '422px',
       },
       maxWidth: {
+        'twohundred': '200px',
+        'fourtwentyone': '421px',
         'sixhundred': '600px',
         'sixthirtythree': '633px',
         'sixhundredninety': '690px',
