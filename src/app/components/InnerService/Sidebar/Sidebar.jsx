@@ -6,7 +6,8 @@ import instagramimg from '../../../../../public/InnerService/Sidebar/instagram.p
 const Sidebar = () => {
     return (
         <section className='py-28 max-laptop:py-0'>
-            <div className="bg-white w-threefifty max-laptop:w-full p-5">
+            <div className="bg-white w-threefifty max-laptop:w-full p-5" data-aos="fade-up"
+                data-aos-duration="1000">
                 <div className="flex items-center mb-6">
                     <input
                         type="text"

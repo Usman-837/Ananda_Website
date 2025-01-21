@@ -11,10 +11,12 @@ const ProjectRequiremnets = () => {
     return (
         <div className='pt-28 max-sm:pt-16'>
             <div>
-                <div>
+                <div data-aos="fade-up"
+                    data-aos-duration="1000">
                     <Image src={serviceimage} alt='serviceimage' />
                 </div>
-                <div className='flex flex-col gap-y-10 pt-24 max-sm:pt-12'>
+                <div className='flex flex-col gap-y-10 pt-24 max-sm:pt-12' data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 className='Jost text-SlateBlack leading-thirtysix text-3xl max-sm:text-2xl max-sm:text-center font-medium'>Project Requirement</h1>
                     <div className='Jost text-base text-DustyGrayBlue space-y-5 leading-7 max-sm:text-center'>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
@@ -30,7 +32,8 @@ const ProjectRequiremnets = () => {
                         <Image src={projectimage} alt='projectimage' />
                     </div>
                 </div>
-                <div className='pt-14'>
+                <div className='pt-14' data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 className='Jost text-SlateBlack leading-thirtysix text-3xl max-sm:text-2xl font-medium max-sm:text-center'>Our Work Process</h1>
                     <div className='grid grid-cols-3 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-4 pt-10'>
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
@@ -54,7 +57,8 @@ const ProjectRequiremnets = () => {
                         </div>
                     </div>
                 </div>
-                <div className='pt-12 max-sm:pt-6'>
+                <div className='pt-12 max-sm:pt-6' data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 className='Jost text-SlateBlack leading-thirtysix text-3xl max-sm:text-2xl font-medium max-sm:text-center py-6'>Service Solution</h1>
                     <div className='flex flex-col gap-y-5 text-DustyGrayBlue text-fifteen'>
                         <div className='bg-[#FFFFFF] py-5 px-3'>We Can Save More Lifes With Your Helping Hand</div>
