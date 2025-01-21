@@ -10,7 +10,8 @@ const AboutUs = () => {
             <div className='container'>
                 <div>
                     <div className='grid grid-cols-2 max-md:grid-cols-1 gap-12'>
-                        <div className='flex flex-col gap-y-20 max-laptop:gap-y-14'>
+                        <div className='flex flex-col gap-y-20 max-laptop:gap-y-14' data-aos="fade-up"
+                            data-aos-duration="1000">
                             <div className='Jost leading-twentyseven text-lg bg-white p-thirtyone'>
                                 <Image src={aboutimg1} />
                             </div>
@@ -25,7 +26,8 @@ const AboutUs = () => {
                                 <button className='bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen uppercase text-lg max-sm:text-sm'>contact us</button>
                             </div>
                         </div>
-                        <div className='flex flex-col max-md:flex-col-reverse  gap-y-20 max-laptop:gap-y-14'>
+                        <div className='flex flex-col max-md:flex-col-reverse  gap-y-20 max-laptop:gap-y-14' data-aos="fade-up"
+                            data-aos-duration="1000">
                             <div className='space-y-8 h-auto max-md:text-center'>
                                 <p className='text-fifty max-laptop:text-5xl max-sm:text-3xl text-DustyGreen leading-seventytwo'>About Us</p>
                                 <p className='Jost text-thirtyfive text-SlateBlack leading-fiftyone max-laptop:text-3xl max-sm:text-2xl'>We Are The Best Wedding<br />

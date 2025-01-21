@@ -37,7 +37,8 @@ const Teammembers = () => {
 
     return (
         <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
-            <div className='container'>
+            <div className='container' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div>
                     <h1 className='text-DustyGreen text-thirtyfive max-sm:text-3xl text-center'>Our Organizers</h1>
                     <p className='text-SlateBlack uppercase text-center pt-3 text-forty leading-fiftyeight max-sm:text-2xl'>Awesome Team Member</p>

@@ -10,7 +10,8 @@ const Rating = () => {
     return (
         <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
             <div className='container'>
-                <div className='grid grid-cols-4 max-xl:grid-cols-3 max-laptop:grid-cols-2 max-md::items-center max-md:justify-center gap-12'>
+                <div className='grid grid-cols-4 max-xl:grid-cols-3 max-laptop:grid-cols-2 max-md::items-center max-md:justify-center gap-12' data-aos="fade-up"
+                    data-aos-duration="1000">
                     <div className='flex max-md:flex-col-reverse max-md:gap-y-5 max-md:text-center gap-x-12 max-md:items-center max-md:justify-center'>
                         <div className='space-y-6 max-sm:space-y-2'>
                             <p className='text-6xl text-SlateBlack max-sm:text-3xl'>1,360+</p>
