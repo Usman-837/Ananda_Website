@@ -32,10 +32,12 @@ export default {
       },
       lineHeight: {
         'twentythree': '23px',
+        'twentyfour': '24px',
         'twentyfive': '25px',
         'twentyseven': '27px',
         'twentynine': '29px',
         'thirtytwo': '32px',
+        'thirtysix': '36px',
         'forty': '40px',
         'fortynine': '49px',
         'fifty': '50px',
@@ -65,6 +67,7 @@ export default {
         'fortynine': '49px',
       },
       fontSize: {
+        'fifteen': '15px',
         'twenty': '20px',
         'twentytwo': '22px',
         'twentythree': '23px',
