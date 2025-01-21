@@ -20,6 +20,7 @@ export default {
         'onethirtyfour': '134px',
         'oneforty': '140px',
         'onefortyfive': '145px',
+        'threefifty': '350px',
         'fourtwentytwo': '422px',
       },
       maxWidth: {
@@ -57,7 +58,8 @@ export default {
         'WarmWhite': '#FAF6F2',
         'LightGray': '#D3D3D3',
         'SoftSand': '#D2ADA2',
-        'Gray': '#525252 '
+        'Gray': '#525252 ',
+        'darkslategray': '#474F62'
       },
       gap: {
         'fortynine': '49px',
@@ -65,6 +67,8 @@ export default {
       fontSize: {
         'twenty': '20px',
         'twentytwo': '22px',
+        'twentythree': '23px',
+        'twentyfour': '24px',
         'twentyfive': '25px',
         'twentyeight': '28px',
         'thirtyfive': '35px',
