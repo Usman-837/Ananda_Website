@@ -39,6 +39,7 @@ export default {
         'thirtytwo': '32px',
         'thirtysix': '36px',
         'forty': '40px',
+        'fortytwo': '42px',
         'fortynine': '49px',
         'fifty': '50px',
         'fiftyone': '51px',

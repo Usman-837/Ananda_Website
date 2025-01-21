@@ -1,19 +1,21 @@
 'use client';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Question = () => {
   const formRef = useRef();
+  const [isSubmitting, setIsSubmitting] = useState(false); 
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', // Replace with your Email.js service ID
-        'YOUR_TEMPLATE_ID', // Replace with your Email.js template ID
+        'YOUR_SERVICE_ID', 
+        'YOUR_TEMPLATE_ID', 
         formRef.current,
-        'YOUR_PUBLIC_KEY' // Replace with your Email.js public key
+        'YOUR_PUBLIC_KEY' 
       )
       .then(
         (result) => {
@@ -24,19 +26,21 @@ const Question = () => {
           alert('Failed to send the message. Please try again.');
           console.log(error.text);
         }
-      );
-
-    e.target.reset(); // Reset the form after submission
+      )
+      .finally(() => {
+        setIsSubmitting(false);
+        e.target.reset();
+      });
   };
 
   return (
-    <div className="pb-28">
+    <div className="pt-28 max-sm:pt-16">
       <div className="container space-y-10">
         <div>
-          <h1 className="text-[35px] max-sm:text-3xl text-center pb-5">
+          <h1 className="text-thirtyfive text-SlateBlack leading-fortytwo max-sm:text-3xl text-center pb-5">
             Have Any Question?
           </h1>
-          <p className="text-lg text-[#848892] text-center">
+          <p className="Jost text-lg text-DustyGrayBlue leading-thirtytwo text-center">
             It is a long established fact that a reader will be distracted
             content of a page when looking.
           </p>
@@ -48,14 +52,14 @@ const Question = () => {
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-[#D4B0A5]"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink"
                 required
               />
               <input
                 type="email"
                 name="user_email"
                 placeholder="Your Email"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-[#D4B0A5]"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink"
                 required
               />
             </div>
@@ -64,11 +68,11 @@ const Question = () => {
                 type="text"
                 name="user_phone"
                 placeholder="Your phone"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-[#D4B0A5]"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink"
               />
               <select
                 name="service"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-[#D4B0A5]"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink"
               >
                 <option>Photography</option>
                 <option>Wedding Planning</option>
@@ -80,16 +84,19 @@ const Question = () => {
                 name="message"
                 placeholder="Message"
                 rows="4"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-[#D4B0A5]"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink"
                 required
               ></textarea>
             </div>
             <div className="text-center">
               <button
                 type="submit"
-                className="px-6 text-base py-2 bg-[#D4B0A5] text-white font-medium rounded-md focus:outline-none focus:ring focus:ring-[#D4B0A5]"
+                className={`px-6 text-base py-2 ${
+                  isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-softring-SoftBeigePink text-white'
+                } font-medium rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink`}
+                disabled={isSubmitting} 
               >
-                SUBMIT NOW
+                {isSubmitting ? 'Submitting...' : 'SUBMIT NOW'}
               </button>
             </div>
           </form>

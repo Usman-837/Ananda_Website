@@ -40,7 +40,7 @@ const Address = () => {
     ]
 
     return (
-        <div className='py-28 max-sm:pt-16'>
+        <div className='pt-28 max-sm:pt-16'>
             <div className='container'>
                 <div className='grid grid-cols-3 max-laptop:grid-cols-2 max-sm:grid-cols-1 text-center gap-5'>
                     {
