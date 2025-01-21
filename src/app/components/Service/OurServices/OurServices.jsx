@@ -71,7 +71,7 @@ const OurServices = () => {
                 <Link href='/service/innerservice'>
                   <div className='relative flex justify-center max-w-fourtwentyone w-full p-fifteen bg-white rounded-md shadow-[#0000001A] shadow-lg mb-10'>
                     <Image src={data.image} alt='cardimage1' />
-                    <div className='absolute Jost text-twentytwo text-SlateBlack bottom-[-22px] leading-sixty max-w-twohundred w-full bg-white text-center'>{data.name}</div>
+                    <div className='absolute Jost text-twentytwo text-SlateBlack hover:text-white bottom-[-22px] leading-sixty max-w-twohundred w-full bg-white hover:bg-SlateBlack text-center'>{data.name}</div>
                   </div>
                 </Link>
               </div>
