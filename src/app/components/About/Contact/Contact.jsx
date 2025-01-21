@@ -123,7 +123,7 @@ const Contact = () => {
                         <div className='flex items-center justify-center'>
                             <button
                                 type="submit"
-                                className="px-11 max-sm:px-6 py-fifteen max-sm:text-sm mt-6 bg-white text-[#D9B8B1] font-semibold rounded-md hover:bg-gray-200 transition"
+                                className="px-11 max-sm:px-6 py-fifteen max-sm:text-sm mt-6 bg-white text-[#D9B8B1] hover:text-white font-semibold rounded-md hover:bg-SlateBlack transition"
                             >
                                 SEND AN INQUIRY
                             </button>

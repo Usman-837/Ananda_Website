@@ -5,9 +5,9 @@ import welcomeimg from '../../../../../public/About/Welcome/image1.png'
 
 const Welcome = () => {
   return (
-    <div>
+    <section className='pt-28 max-sm:pt-0'>
       <Image src={welcomeimg} alt='welcomeimg'/>
-    </div>
+    </section>
   )
 }
 

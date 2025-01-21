@@ -22,7 +22,7 @@ const AboutUs = () => {
                                     donec scelerisque. Malesuada massa facilisis aliquam nunc ut
                                     nisl tincidunt nibh. Massa feugiat vitae habitant metus viverra.
                                     Praesent massa habitant sapien odio ac scelerisque praesent id.</p>
-                                <button className='bg-SoftBeigePink text-white px-fortyfive py-fifteen uppercase text-lg max-sm:text-sm'>contact us</button>
+                                <button className='bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen uppercase text-lg max-sm:text-sm'>contact us</button>
                             </div>
                         </div>
                         <div className='flex flex-col max-md:flex-col-reverse  gap-y-20 max-laptop:gap-y-14'>
@@ -35,7 +35,7 @@ const AboutUs = () => {
                                     donec scelerisque. Malesuada massa facilisis aliquam nunc ut
                                     nisl tincidunt nibh. Massa feugiat vitae habitantp metus viverra.
                                     Praesent massa habitant sapien odio ac scelerisque praesent id.</p>
-                                <button className='bg-SoftBeigePink text-white px-fortyfive py-fifteen uppercase text-lg max-sm:text-sm'>book consultations</button>
+                                <button className='bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen uppercase text-lg max-sm:text-sm'>book consultations</button>
                             </div>
                             <div className='Jost leading-twentyseven text-lg bg-white p-thirtyone'>
                                 <Image src={aboutimg2} />

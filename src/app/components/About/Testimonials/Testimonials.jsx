@@ -13,7 +13,7 @@ const Testimonials = () => {
                     <div className='w-1/2 max-xl:w-full'>
                         <Image src={testimonialimg} alt='testimonialimage' />
                     </div>
-                    <div className='bg-white p-4 w-1/2 max-xl:w-full my-10 xl:absolute right-[40px] max-xl:right-0'>
+                    <div className='bg-white p-4 w-1/2 max-xl:w-full my-4 xl:absolute right-[40px] max-xl:right-0'>
                         <div className="space-y-4 px-10 max-sm:px-2 py-16 max-sm:py-6 text-center flex flex-col items-center outline outline-2 outline-WarmWhite">
                             <div className='flex text-4xl max-sm:text-3xl bg-transparent text-[#D7B5AB] font-semibold'>
                                 <TfiQuoteRight />
