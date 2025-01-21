@@ -88,6 +88,7 @@ export default {
       },
       padding: {
         'fifteen': '15px',
+        'twentyfive': '25px',
         'thirtyone': '31px',
         'forty': '40px',
         'fortyfive': '45px',

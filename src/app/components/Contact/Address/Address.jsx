@@ -40,15 +40,15 @@ const Address = () => {
     ]
 
     return (
-        <div className='py-28'>
+        <div className='py-28 max-sm:pt-16'>
             <div className='container'>
                 <div className='grid grid-cols-3 max-laptop:grid-cols-2 max-sm:grid-cols-1 text-center gap-5'>
                     {
                         AddressData.map((data) => (
-                            <div key={data.id} className='bg-[#FFFFFF] p-12 flex flex-col gap-y-4 items-center justify-center'>
-                                <p className='bg-[#F5F5F5] text-[#D4B0A5] p-[25px] max-sm:p-4 text-[35px] max-sm:text-3xl rounded-full'>{data.icon}</p>
-                                <h2 className='text-3xl max-sm:text-2xl font-medium'>{data.title}</h2>
-                                <p className='text-lg max-sm:text-sm text-[#848892] leading-8'>{data.des}</p>
+                            <div key={data.id} className='bg-white p-10 flex flex-col gap-y-4 items-center justify-center'>
+                                <p className='bg-[#F5F5F5] text-SoftBeigePink p-twentyfive max-sm:p-4 text-thirtyfive max-sm:text-3xl rounded-full'>{data.icon}</p>
+                                <h2 className='Jost text-SlateBlack text-3xl max-sm:text-2xl font-medium'>{data.title}</h2>
+                                <p className='text-lg max-sm:text-sm text-DustyGrayBlue leading-8'>{data.des}</p>
                             </div>
                         ))
                     }
