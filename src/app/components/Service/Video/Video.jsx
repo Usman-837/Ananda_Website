@@ -5,7 +5,8 @@ import videoimg from '../../../../../public/Service/Video/Video.png'
 
 const Video = () => {
     return (
-        <section className='pt-28 max-sm:pt-16'>
+        <section className='pt-28 max-sm:pt-16' data-aos="fade-up"
+        data-aos-duration="1000">
             <Image src={videoimg} />
             {/* <video 
                         controls

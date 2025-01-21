@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import banner from '../../../../../public/Service/Banner/Banner.png'
+import { TypeAnimation } from 'react-type-animation'
 
 const Banner = () => {
   return (
@@ -9,7 +11,17 @@ const Banner = () => {
         backgroundImage: `url(${banner.src})`, 
       }}
     >
-        <p className='Calligraffitti text-eighty text-SlateBlack max-sm:text-5xl'>Service</p>
+        {/* <p className='Calligraffitti text-eighty text-SlateBlack max-sm:text-5xl'>Service</p> */}
+
+         <TypeAnimation
+                      className='Calligraffitti text-eighty max-sm:text-3xl text-SlateBlack'
+                      sequence={[
+                        `Service`,
+                        20000
+                      ]}
+                      cursor={false}
+                      speed={250}
+          />
     </div>
   )
 }
