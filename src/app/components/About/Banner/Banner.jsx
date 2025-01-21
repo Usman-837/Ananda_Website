@@ -9,7 +9,7 @@ const Banner = () => {
         backgroundImage: `url(${banner.src})`, 
       }}
     >
-        <p className='Calligraffitti text-eighty max-sm:text-3xl'>About US</p>
+        <p className='Calligraffitti text-eighty max-sm:text-3xl text-SlateBlack'>About US</p>
     </div>
   )
 }

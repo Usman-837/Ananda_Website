@@ -45,8 +45,8 @@ const Teammembers = () => {
                 <div className='pt-14 grid grid-cols-4 gap-5 max-laptop:gap-y-10 max-laptop:grid-cols-2'>
                     {
                         TeamMemberData.map((data) => (
-                            <div key={data.id} className='flex flex-col items-center justify-center gap-y-3'>
-                                <Image src={data.img} alt='teammember' className='rounded-full' />
+                            <div key={data.id} className='flex flex-col items-center justify-center gap-y-3 max-sm:gap-y-2'>
+                                <Image src={data.img} alt='teammember' className='rounded-full max-sm:w-32' />
                                 <p className='text-twentyfive text-SlateBlack max-sm:text-base'>{data.name}</p>
                                 <p className='text-lg max-sm:text-sm text-DustyGreen leading-twentyseven'>{data.title}</p>
                             </div>
