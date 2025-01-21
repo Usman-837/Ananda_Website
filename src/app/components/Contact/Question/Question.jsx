@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 
 const Question = () => {
   const formRef = useRef();
-  const [isSubmitting, setIsSubmitting] = useState(false); 
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -12,10 +12,10 @@ const Question = () => {
 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 
-        'YOUR_TEMPLATE_ID', 
+        'YOUR_SERVICE_ID',
+        'YOUR_TEMPLATE_ID',
         formRef.current,
-        'YOUR_PUBLIC_KEY' 
+        'YOUR_PUBLIC_KEY'
       )
       .then(
         (result) => {
@@ -36,7 +36,8 @@ const Question = () => {
   return (
     <div className="pt-28 max-sm:pt-16">
       <div className="container space-y-10">
-        <div>
+        <div data-aos="fade-up"
+          data-aos-duration="1000">
           <h1 className="text-thirtyfive text-SlateBlack leading-fortytwo max-sm:text-3xl text-center pb-5">
             Have Any Question?
           </h1>
@@ -45,7 +46,8 @@ const Question = () => {
             content of a page when looking.
           </p>
         </div>
-        <div className="max-w-4xl mx-auto py-10 px-6 bg-white shadow-lg rounded-md">
+        <div className="max-w-4xl mx-auto py-10 px-6 bg-white shadow-lg rounded-md" data-aos="fade-up"
+          data-aos-duration="1000">
           <form ref={formRef} onSubmit={sendEmail}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
               <input
@@ -91,10 +93,9 @@ const Question = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className={`px-6 text-base py-2 ${
-                  isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-softring-SoftBeigePink text-white'
-                } font-medium rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink`}
-                disabled={isSubmitting} 
+                className={`px-6 text-base py-2 ${isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-softring-SoftBeigePink text-white'
+                  } font-medium rounded-md focus:outline-none focus:ring focus:ring-SoftBeigePink`}
+                disabled={isSubmitting}
               >
                 {isSubmitting ? 'Submitting...' : 'SUBMIT NOW'}
               </button>

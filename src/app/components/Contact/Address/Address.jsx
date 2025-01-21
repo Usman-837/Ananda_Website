@@ -45,7 +45,7 @@ const Address = () => {
                 <div className='grid grid-cols-3 max-laptop:grid-cols-2 max-sm:grid-cols-1 text-center gap-5'>
                     {
                         AddressData.map((data) => (
-                            <div key={data.id} className='bg-white p-10 flex flex-col gap-y-4 items-center justify-center'>
+                            <div key={data.id} className='bg-white p-10 flex flex-col gap-y-4 items-center justify-center' data-aos="fade-up" data-aos-duration="1000">
                                 <p className='bg-[#F5F5F5] text-SoftBeigePink p-twentyfive max-sm:p-4 text-thirtyfive max-sm:text-3xl rounded-full'>{data.icon}</p>
                                 <h2 className='Jost text-SlateBlack text-3xl max-sm:text-2xl font-medium'>{data.title}</h2>
                                 <p className='text-lg max-sm:text-sm text-DustyGrayBlue leading-8'>{data.des}</p>
