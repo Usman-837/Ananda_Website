@@ -91,9 +91,9 @@ const Memories = () => {
 
     return (
         <>
-            <h1 className='Calligraffitti text-sixtyfive text-NearBlack max-lg:text-5xl max-md:text-3xl max-sm:text-xl py-20 max-md:py-16 max-sm:py-12 tracking-0.5 text-center leading-fifty'>Planning Your Everlasting Memories</h1>
+            <h1 className='Calligraffitti text-sixtyfive text-NearBlack max-lg:text-5xl max-md:text-3xl max-sm:text-xl py-20 max-md:py-16 max-sm:py-12 tracking-0.5 text-center leading-fifty' data-aos="fade-up" data-aos-duration="1000" >Planning Your Everlasting Memories</h1>
             <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
-                <div className='container flex flex-col justify-center items-center'>
+                <div className='container flex flex-col justify-center items-center' data-aos="fade-up" data-aos-duration="1000">
                     <div className='flex justify-between max-md:gap-y-8 max-md:flex-col pb-20'>
                         <p className='Marcellus w-1/2 max-md:w-full text-fortytwo max-lg:text-4xl max-sm:text-xl tracking-0.5 leading-fifty text-NearBlack'>Experience Luxury <br /> experience caymanKind</p>
                         <p className='Roboto w-1/2 max-md:w-full max-sm:text-sm border-l border-gray-300 pl-12 max-sm:pl-6 text-lg text-DimGray leading-twentyseven tracking-0.5'>Celebrations is an award-winning, full-service wedding planner based in Grand Cayman in the Caribbean. For over 30 years, we have worked with hundreds of couples, local and across the globe, bringing their Cayman Islands wedding or elopement dreams to life.</p>
@@ -124,7 +124,8 @@ const Memories = () => {
                         </div>
                     </div>
                     {/* Slider */}
-                    <div className='w-full'>
+                    <div className='w-full' data-aos="fade-up"
+                        data-aos-duration="1000">
                         <Slider {...settings} className='pb-5'>
                             {
                                 cardData.map((data) => (

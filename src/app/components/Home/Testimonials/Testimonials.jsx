@@ -82,7 +82,7 @@ const Testimonials = () => {
                     <Slider {...settings}>
                         {testimonialData.map((data) => (
                             <div className="px-5 max-sm:px-0 mb-8">
-                                <div className='bg-white p-4'>
+                                <div className='bg-white p-4' data-aos="fade-up" data-aos-duration="1000">
                                     <div key={data.id} className="space-y-4 px-sixtyfive max-sm:px-2 pt-forty max-sm:pt-6 pb-fifty max-sm:pb-6 text-center flex flex-col items-center outline outline-2 outline-[#FAF6F2]">
                                         <div className='flex text-4xl max-sm:text-3xl bg-transparent text-SoftBeigePink font-semibold'>
                                             <TfiQuoteRight />
@@ -101,7 +101,7 @@ const Testimonials = () => {
                     </Slider>
                 </div>
             </div>
-            <Image src={videoImg} className='pt-20' />
+            <Image src={videoImg} className='pt-20' data-aos="fade-up" data-aos-duration="2000" />
             {/* <video 
                 controls
                 poster="/path-to-poster-image.jpg"

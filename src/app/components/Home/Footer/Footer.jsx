@@ -37,7 +37,8 @@ const Footer = () => {
     return (
         <div className='bg-[#F6EFEA] py-20 max-sm:py-8'>
             <div className='container'>
-                <div className="flex flex-col gap-y-6 items-center justify-center">
+                <div className="flex flex-col gap-y-6 items-center justify-center" data-aos="fade-up"
+                    data-aos-duration="1000">
                     <div>
                         <Link href="/">
                             <Image src={logo} alt="logo" className="w-oneforty" />

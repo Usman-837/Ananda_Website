@@ -9,7 +9,8 @@ import Img4 from '../../../../../public/Home/WeddingStory/image4.png'
 const WeddingStory = () => {
     return (
         <section className='bg-WarmWhite pt-28 max-sm:pt-16'>
-            <div className='container'>
+            <div className='container' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div className='space-y-4 pb-5'>
                     <h1 className='Vujahday leading-fifty text-center text-DustyGreen text-thirtyfive max-sm:text-4xl'>Amazing Work</h1>
                     <h2 className='Jost text-forty text-SlateBlack leading-fiftyeight max-sm:text-2xl text-center'>FEATURED WEDDING STORY</h2>

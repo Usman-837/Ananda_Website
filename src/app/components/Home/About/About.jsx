@@ -7,7 +7,8 @@ const About = () => {
     return (
         <div className='bg-WarmWhite pt-28 max-sm:pt-16'>
             <div className='container'>
-                <div className='relative flex max-laptop:flex-col max-laptop:gap-y-10'>
+                <div className='relative flex max-laptop:flex-col max-laptop:gap-y-10' data-aos="fade-up"
+                    data-aos-duration="1000">
                     <div className='space-y-5 absolute max-md:static max-w-sixhundred w-full max-md:text-center'>
                         <h1 className='Vujahday text-DustyGreen text-fifty max-sm:text-4xl leading-seventytwo'>About US</h1>
                         <p className='text-thirtyfive max-md:text-2xl fiftyone text-SlateBlack'>We Are The Best Wedding<br />

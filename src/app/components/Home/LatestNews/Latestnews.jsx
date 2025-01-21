@@ -31,7 +31,8 @@ const Latestnews = () => {
 
     return (
         <div className='bg-WarmWhite pb-16 pt-48 max-sm:pt-16'>
-            <div className='container'>
+            <div className='container' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div className='text-center pb-14'>
                     <h1 className='Vujahday text-DustyGreen text-thirtyfive max-sm:text-4xl leading-fifty max-sm:pb-5'>Latest News</h1>
                     <p className='Jost leading-fiftyeight text-forty text-SlateBlack uppercase max-sm:text-2xl'>Read Our Wedding News</p>

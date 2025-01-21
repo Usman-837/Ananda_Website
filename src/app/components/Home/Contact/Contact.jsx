@@ -54,7 +54,8 @@ const Contact = () => {
             style={{
                 backgroundImage: `url(${contactimg1.src})`,
             }}>
-            <div className='container'>
+            <div className='container' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div className="absolute max-sm:static top-[-100px] w-full max-w-sixhundredninety bg-SoftSand px-10 pt-hundred max-sm:pt-12 pb-onethousandfifteen max-sm:pb-12 rounded-md">
                     <div className='flex flex-col items-center justify-center'>
                         <h2 className="text-white font-medium text-lg max-sm:text-sm mb-2">Lets Meet</h2>
