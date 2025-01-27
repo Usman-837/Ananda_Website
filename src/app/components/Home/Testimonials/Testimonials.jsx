@@ -12,27 +12,27 @@ const Testimonials = () => {
     const testimonialData = [
         {
             id: 1,
-            name: 'Marlin & Williamson',
+            name: 'Harrison & Blake',
             date: '23.05.2022',
-            des: 'Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.',
+            des: 'Donec cursus justo at urna pharetra, a tincidunt ante lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tristique orci sit amet ex sollicitudin, ac malesuada ante convallis. Aliquam erat volutpat.',
         },
         {
             id: 2,
-            name: 'James Harris',
+            name: 'William Grant',
             date: '23.05.2022',
-            des: 'Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.',
+            des: 'Aenean vel mi vitae felis volutpat facilisis. Morbi ac augue tristique, aliquet velit ac, tincidunt ligula. Cras convallis felis sit amet felis efficitur, a condimentum eros volutpat. Integer vulputate, elit ac ullamcorper interdum, odio felis egestas ante',
         },
         {
             id: 3,
-            name: 'Olivia King',
+            name: 'Sophia Carter',
             date: '23.05.2022',
-            des: 'Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.',
+            des: 'Nullam feugiat auctor ante, nec cursus nisl facilisis ut. Pellentesque sit amet velit non magna maximus elementum a ut risus. Proin at gravida orci, non lobortis ligula. Aenean malesuada felis dui, id varius ante gravida ac. Curabitur id nulla et odio sollicitudin.',
         },
         {
             id: 4,
-            name: 'Robert Clark',
+            name: 'Edward Turner',
             date: '23.05.2022',
-            des: 'Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.',
+            des: 'Cras nec tortor vitae ipsum luctus lobortis. Integer ultricies orci vel erat dapibus, in tincidunt orci posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer fermentum odio sit amet eros dictum, ac consequat erat tristique.',
         }
     ]
 
