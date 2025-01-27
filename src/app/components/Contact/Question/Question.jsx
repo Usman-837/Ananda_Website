@@ -42,8 +42,7 @@ const Question = () => {
             Have Any Question?
           </h1>
           <p className="Jost text-lg text-DustyGrayBlue leading-thirtytwo text-center">
-            It is a long established fact that a reader will be distracted
-            content of a page when looking.
+          It is a well-known fact that readers often get distracted by the content of a page when they are browsing.
           </p>
         </div>
         <div className="max-w-4xl mx-auto py-10 px-6 bg-white shadow-lg rounded-md" data-aos="fade-up"
