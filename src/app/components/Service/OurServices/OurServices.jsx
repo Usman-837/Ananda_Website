@@ -8,6 +8,8 @@ import venuselection from '../../../../../public/Service/OurServices/venuselecti
 import decoration from '../../../../../public/Service/OurServices/decoration.png'
 import catering from '../../../../../public/Service/OurServices/catering.png'
 import entertainment from '../../../../../public/Service/OurServices/entertainment.png'
+import style from '../../../../../public/Service/OurServices/style.png'
+import jewelry from '../../../../../public/Service/OurServices/jewelry.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -54,7 +56,16 @@ const OurServices = () => {
       name: 'Entertainment',
       image: entertainment,
     },
-
+    {
+      id: 9,
+      name: 'Style by Ananda',
+      image: style,
+    },
+    {
+      id: 10,
+      name: 'Jewelry by Ananda',
+      image: jewelry,
+    }
   ]
 
   return (
