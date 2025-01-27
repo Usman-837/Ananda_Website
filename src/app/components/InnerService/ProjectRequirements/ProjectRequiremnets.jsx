@@ -19,13 +19,10 @@ const ProjectRequiremnets = () => {
                     data-aos-duration="1000">
                     <h1 className='Jost text-SlateBlack leading-thirtysix text-3xl max-sm:text-2xl max-sm:text-center font-medium'>Project Requirement</h1>
                     <div className='Jost text-base text-DustyGrayBlue space-y-5 leading-7 max-sm:text-center'>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
-                            injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem
-                            Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle.
+                        <p>There are several variations of Lorem Ipsum passages available, but most have been altered in some way, either by added humor or random words that don't seem even slightly believable. When using a Lorem Ipsum passage, ensure there isn't anything inappropriate hidden within the text.
                         </p>
                         <p>
-                            The majority have suffered alteration in some form or randomised words which don't look even slightly believable. If you are
-                            going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden.
+                        Most have undergone alterations in some form or contain random words that don't appear even remotely believable. If you're planning to use a Lorem Ipsum passage, make sure there's nothing awkward or embarrassing tucked inside.
                         </p>
                     </div>
                     <div>
@@ -39,21 +36,17 @@ const ProjectRequiremnets = () => {
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
                             <Image src={researchimg} alt='Research and Analytics' />
                             <h2 className='Jost text-SlateBlack leading-twentyfour text-xl font-semibold'>Research and analytics</h2>
-                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you are going to use a passage
-                                of Lorem Ipsum, you need to be
-                                sure there isn't.</p>
+                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you plan to use a Lorem Ipsum passage, make sure there isn't anything inappropriate.</p>
                         </div>
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
                             <Image src={ideaimg} alt='Research and Analytics' />
                             <h2 className='Jost text-SlateBlack leading-twentyfour text-xl font-semibold'>Design and Idea</h2>
-                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't.</p>
+                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you plan to use a Lorem Ipsum passage, make sure there isn't anything inappropriate.</p>
                         </div>
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
                             <Image src={eventimg} alt='Research and Analytics' />
                             <h2 className='Jost text-SlateBlack leading-twentyfour text-xl font-semibold'>Research and analytics</h2>
-                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you are going to use a passage
-                                of Lorem Ipsum, you need to be
-                                sure there isn't.</p>
+                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you plan to use a Lorem Ipsum passage, make sure there isn't anything inappropriate.</p>
                         </div>
                     </div>
                 </div>
