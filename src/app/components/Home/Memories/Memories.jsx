@@ -6,6 +6,8 @@ import cardimage2 from '../../../../../public/Home/Memories/image2.jpg'
 import cardimage3 from '../../../../../public/Home/Memories/image3.jpg'
 import cardimage4 from '../../../../../public/Home/Memories/image4.jpg'
 import cardimage5 from '../../../../../public/Home/Memories/image5.png'
+import cardimage6 from '../../../../../public/Home/Memories/image9.png'
+import cardimage7 from '../../../../../public/Home/Memories/image10.png'
 import Memoryimg from '../../../../../public/Home/Memories/image6.png'
 import Memoryimg2 from '../../../../../public/Home/Memories/image8.png'
 import logo from '../../../../../public/Home/Logo/logo.png'
@@ -41,6 +43,16 @@ const Memories = () => {
             name: 'Event Planning',
             image: cardimage5,
         },
+        {
+            id: 6,
+            name: 'Style by Ananda',
+            image: cardimage6,
+        },
+        {
+            id: 7,
+            name: 'Jewelry by Ananda',
+            image: cardimage7,
+        }
     ]
 
     var settings = {
