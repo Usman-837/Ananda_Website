@@ -20,10 +20,10 @@ const Testimonials = () => {
                                 <TfiQuoteRight />
                             </div>
                             <div>
-                                <p className='Jost leading-thirtytwo text-SlateBlack text-lg max-sm:text-sm'>Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus utamet tortor iEros, sed at semper sed in tempor ultrices sed. Id semnulla quisque vel duiscoue necrd.</p>
+                                <p className='Jost leading-thirtytwo text-SlateBlack text-lg max-sm:text-sm'>Aenean euismod mauris placerat consequat, eget viverra felis tincidunt. Nulla orci, consectetur vitae purus ut pulvinar felis. Fusce et eros, euismod libero pretium gravida nec. Morbi sit amet libero sit amet sapien interdum convallis. Integer ut turpis eu ligula vulputate auctor eget ac mauris. Nunc libero amet vel sollicitudin viverra.</p>
                             </div>
                             <div className="flex gap-y-3 max-sm:gap-y-1 flex-col items-center">
-                                <p className="text-twentyfive max-sm:text-twentytwo leading-forty text-DustyGreen">James Harris</p>
+                                <p className="text-twentyfive max-sm:text-twentytwo leading-forty text-DustyGreen">David Mitchell</p>
                                 <p className='Jost text-base max-sm:text-sm leading-forty text-SteelGray'>Wedding. 23.05.2022 </p>
                             </div>
                         </div>
