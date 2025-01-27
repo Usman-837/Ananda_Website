@@ -33,7 +33,7 @@ const Memories = () => {
         },
         {
             id: 4,
-            name: 'Wedding Dress',
+            name: 'Cake Design',
             image: cardimage4,
         },
         {
@@ -96,7 +96,7 @@ const Memories = () => {
                 <div className='container flex flex-col justify-center items-center' data-aos="fade-up" data-aos-duration="1000">
                     <div className='flex justify-between max-md:gap-y-8 max-md:flex-col pb-20'>
                         <p className='Marcellus w-1/2 max-md:w-full text-fortytwo max-lg:text-4xl max-sm:text-xl tracking-0.5 leading-fifty text-NearBlack'>Experience Luxury <br /> experience caymanKind</p>
-                        <p className='Roboto w-1/2 max-md:w-full max-sm:text-sm border-l border-gray-300 pl-12 max-sm:pl-6 text-lg text-DimGray leading-twentyseven tracking-0.5'>Celebrations is an award-winning, full-service wedding planner based in Grand Cayman in the Caribbean. For over 30 years, we have worked with hundreds of couples, local and across the globe, bringing their Cayman Islands wedding or elopement dreams to life.</p>
+                        <p className='Roboto w-1/2 max-md:w-full max-sm:text-sm border-l border-gray-300 pl-12 max-sm:pl-6 text-lg text-DimGray leading-twentyseven tracking-0.5'>Celebrations, based in Grand Cayman, is an award-winning wedding planner with over 30 years of expertise in crafting stunning Cayman Islands weddings and elopements. Let’s make your dream day unforgettable!</p>
                     </div>
                     <div className='flex max-lg:flex-col-reverse max-lg:gap-y-16 pb-36 max-sm:pb-24 pt-10 max-sm:pt-0'>
                         <div>
@@ -115,9 +115,7 @@ const Memories = () => {
                             </div>
                             <div className='flex flex-col items-center justify-center text-center gap-y-5'>
                                 <h1 className='Vujahday text-sixtyfive max-sm:text-4xl leading-sixtyeight tracking-0.5'>special moments</h1>
-                                <p className='Roboto text-DimGray text-lg max-sm:text-sm leading-twentyseven tracking-0.5'>Introduce the bridal party and groomsmen with brief bios and<br />
-                                    photos. Share fun facts or memorable stories about each member’s<br />
-                                    relationship with the couple.
+                                <p className='Roboto text-DimGray text-lg max-sm:text-sm leading-twentyseven tracking-0.5'>Showcase the bridal party and groomsmen with photos and<br/> brief bios. Share heartfelt stories or fun facts about their<br/> unique connection to the couple, making their role<br/> in the celebration even more meaningful!
                                 </p>
                                 <button className='Jost bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen textr-lg leading-27'>Appointment</button>
                             </div>

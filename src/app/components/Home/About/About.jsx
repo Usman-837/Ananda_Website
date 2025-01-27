@@ -13,8 +13,7 @@ const About = () => {
                         <h1 className='Vujahday text-DustyGreen text-fifty max-sm:text-4xl leading-seventytwo'>About US</h1>
                         <p className='text-thirtyfive max-md:text-2xl fiftyone text-SlateBlack'>We Are The Best Wedding<br />
                             Planner & Decor.</p>
-                        <p className='Jost leading-thirtytwo text-DustyGreen text-lg'>Convallis gravida odio viverra nisi, aliquam sem netus. Sed at semper at lacus. Nam integer nunc pellentesque nunc pulvinar donec scelerisque. Malesuada massa facilisis aliquam nunc ut
-                            nisl tincidunt nibh. Massa feugiat vitae habitant metus viverra. Praesent massa habitant sapien odio ac scelerisque praesent id.</p>
+                        <p className='Jost leading-thirtytwo text-DustyGreen text-lg'>Integer ut tortor vitae nunc tempor pharetra. Curabitur lobortis ligula at lectus convallis, vel sagittis magna volutpat. Morbi volutpat elit sit amet lorem volutpat, eu lacinia libero facilisis. Ut hendrerit mi sed lorem fermentum, id auctor neque pretium. Nam fringilla dolor in ante malesuada, eget tincidunt nulla suscipit.</p>
                         <button className='bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen text-lg leading-twentyseven'>Appointment</button>
                     </div>
                     <div className='pl-72 max-md:pl-0 pt-5'>
