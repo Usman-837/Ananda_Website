@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import videoimg from '../../../../../public/Service/Video/Video.png'
+import videoimg from '../../../../../public/Services/Video/Video.png'
 
 const Video = () => {
     return (

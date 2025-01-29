@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '@/app/components/About/Navbar/Navbar'
-import Banner from '@/app/components/Service/Banner/Banner'
-import ProjectRequiremnets from '@/app/components/InnerService/ProjectRequirements/ProjectRequiremnets'
-import Sidebar from '@/app/components/InnerService/Sidebar/Sidebar'
+import Banner from '@/app/components/Services/Banner/Banner'
+import ProjectRequiremnets from '@/app/components/OurServices/Weddingdress/ProjectRequirements/ProjectRequiremnets'
+import Sidebar from '@/app/components/OurServices/Weddingdress/Sidebar/Sidebar'
 import Testimonials from '@/app/components/About/Testimonials/Testimonials'
-import Video from '@/app/components/Service/Video/Video'
+import Video from '@/app/components/Services/Video/Video'
 import WeddingStory from '@/app/components/Home/WeddingStory/WeddingStory'
 import Footer from '@/app/components/Home/Footer/Footer'
 
-const InnerService = () => {
+const Weddingdress = () => {
   return (
     <div className='bg-[#FAF6F2]'>
       <Navbar />
@@ -22,9 +22,9 @@ const InnerService = () => {
       <Testimonials/>
       <Video/>
       <WeddingStory/>
-      <Footer/>
+      <Footer/> 
     </div>
   )
 }
 
-export default InnerService
+export default Weddingdress

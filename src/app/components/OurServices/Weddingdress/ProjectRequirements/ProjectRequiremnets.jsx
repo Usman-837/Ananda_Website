@@ -1,11 +1,11 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import serviceimage from '../../../../../public/InnerService/ProjectRequirements/image1.png'
-import projectimage from '../../../../../public/InnerService/ProjectRequirements/image2.png'
-import researchimg from '../../../../../public/InnerService/ProjectRequirements/research.png'
-import ideaimg from '../../../../../public/InnerService/ProjectRequirements/idea.png'
-import eventimg from '../../../../../public/InnerService/ProjectRequirements/eventmanager.png'
+import serviceimage from '../../../../../../public/OurServices/Weddingdress/ProjectRequirements/image1.png'
+import projectimage from '../../../../../../public/OurServices/Weddingdress/ProjectRequirements/image2.png'
+import researchimg from '../../../../../../public/OurServices/Weddingdress/ProjectRequirements/research.png'
+import ideaimg from '../../../../../../public/OurServices/Weddingdress/ProjectRequirements/idea.png'
+import eventimg from '../../../../../../public/OurServices/Weddingdress/ProjectRequirements/eventmanager.png'
 
 const ProjectRequiremnets = () => {
     return (
