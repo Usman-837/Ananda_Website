@@ -91,7 +91,7 @@ const OurServices = () => {
           {
             ServicesData.map((data) => (
               <div key={data.id} className='px-3 hover:scale-110 transition-all duration-700'>
-                <Link href={data.path}>
+                <Link href={`/services/${data.id}`}>
                   <div className='relative flex justify-center max-w-fourtwentyone w-full p-fifteen bg-white rounded-md shadow-[#0000001A] shadow-lg mb-10'>
                     <Image src={data.image} alt='cardimage1' />
                     <div className='absolute Jost text-twentytwo text-SlateBlack hover:text-white bottom-[-22px] leading-sixty max-w-twohundred w-full bg-white hover:bg-SlateBlack text-center'>{data.name}</div>
