@@ -25,8 +25,8 @@ const page = ({ params }) => {
             <Sidebar />
           </div>
         </div>
-        <Testimonials id={id}/>
-        <Video />
+        <Testimonials id={id} />
+        <Video id={id} />
         <Story />
         <Footer />
       </div>
