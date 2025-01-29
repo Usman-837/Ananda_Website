@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import banner from '../../../../../public/Services/Banner/Banner.png'
+import banner from '../../../../../../public/Services/Banner/Banner.png'
 import { TypeAnimation } from 'react-type-animation'
 
 const Banner = () => {
@@ -16,7 +16,7 @@ const Banner = () => {
          <TypeAnimation
                       className='Calligraffitti text-eighty max-sm:text-3xl text-SlateBlack'
                       sequence={[
-                        `Services`,
+                        `Style By Ananda`,
                         20000
                       ]}
                       cursor={false}

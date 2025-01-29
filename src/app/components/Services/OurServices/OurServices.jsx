@@ -20,7 +20,7 @@ const OurServices = () => {
       id: 1,
       name: 'Style by Ananda',
       image: style,
-      path: 'services/tylebyananda'
+      path: 'services/stylebyananda'
     },
     {
       id: 2,
