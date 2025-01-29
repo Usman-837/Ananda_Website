@@ -20,7 +20,7 @@ const Testimonials = () => {
                                 <TfiQuoteRight />
                             </div>
                             <div>
-                                <p className='Jost leading-thirtytwo text-SlateBlack text-lg max-sm:text-sm'>Aenean euismod mauris placerat consequat, eget viverra felis tincidunt. Nulla orci, consectetur vitae purus ut pulvinar felis. Fusce et eros, euismod libero pretium gravida nec. Morbi sit amet libero sit amet sapien interdum convallis. Integer ut turpis eu ligula vulputate auctor eget ac mauris. Nunc libero amet vel sollicitudin viverra.</p>
+                                <p className='Jost leading-thirtytwo text-SlateBlack text-lg max-sm:text-sm'>The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together</p>
                             </div>
                             <div className="flex gap-y-3 max-sm:gap-y-1 flex-col items-center">
                                 <p className="text-twentyfive max-sm:text-twentytwo leading-forty text-DustyGreen">David Mitchell</p>

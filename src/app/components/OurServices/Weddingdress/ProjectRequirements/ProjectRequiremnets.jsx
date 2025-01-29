@@ -19,11 +19,8 @@ const ProjectRequiremnets = () => {
                     data-aos-duration="1000">
                     <h1 className='Jost text-SlateBlack leading-thirtysix text-3xl max-sm:text-2xl max-sm:text-center font-medium'>Project Requirement</h1>
                     <div className='Jost text-base text-DustyGrayBlue space-y-5 leading-7 max-sm:text-center'>
-                        <p>There are several variations of Lorem Ipsum passages available, but most have been altered in some way, either by added humor or random words that don't seem even slightly believable. When using a Lorem Ipsum passage, ensure there isn't anything inappropriate hidden within the text.
-                        </p>
-                        <p>
-                        Most have undergone alterations in some form or contain random words that don't appear even remotely believable. If you're planning to use a Lorem Ipsum passage, make sure there's nothing awkward or embarrassing tucked inside.
-                        </p>
+                        <p>The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests. Bridal stylists will provide expert advice, while photographers capture stunning moments.</p>
+                        <p>Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience. The event ensures a seamless, luxurious atmosphere for brides-to-be to find their dream wedding dress.</p>
                     </div>
                     <div>
                         <Image src={projectimage} alt='projectimage' />
@@ -36,17 +33,17 @@ const ProjectRequiremnets = () => {
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
                             <Image src={researchimg} alt='Research and Analytics' />
                             <h2 className='Jost text-SlateBlack leading-twentyfour text-xl font-semibold'>Research and analytics</h2>
-                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you plan to use a Lorem Ipsum passage, make sure there isn't anything inappropriate.</p>
+                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'> We analyze trends and fabrics to curate a stunning wedding dress collection.</p>
                         </div>
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
                             <Image src={ideaimg} alt='Research and Analytics' />
                             <h2 className='Jost text-SlateBlack leading-twentyfour text-xl font-semibold'>Design and Idea</h2>
-                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you plan to use a Lorem Ipsum passage, make sure there isn't anything inappropriate.</p>
+                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>Our team creates unique, elegant designs blending tradition with innovation.</p>
                         </div>
                         <div className='border border-[#EBEBEB] p-6 space-y-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
                             <Image src={eventimg} alt='Research and Analytics' />
-                            <h2 className='Jost text-SlateBlack leading-twentyfour text-xl font-semibold'>Research and analytics</h2>
-                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>If you plan to use a Lorem Ipsum passage, make sure there isn't anything inappropriate.</p>
+                            <h2 className='Jost text-SlateBlack leading-twentyfour text-xl font-semibold'>All Event Manage</h2>
+                            <p className='Jost text-fifteen text-DustyGrayBlue leading-twentyseven'>We handle all details to ensure a seamless and memorable bridal showcase.</p>
                         </div>
                     </div>
                 </div>
@@ -54,10 +51,10 @@ const ProjectRequiremnets = () => {
                     data-aos-duration="1000">
                     <h1 className='Jost text-SlateBlack leading-thirtysix text-3xl max-sm:text-2xl font-medium max-sm:text-center py-6'>Service Solution</h1>
                     <div className='flex flex-col gap-y-5 text-DustyGrayBlue text-fifteen'>
-                        <div className='bg-[#FFFFFF] py-5 px-3'>We Can Save More Lifes With Your Helping Hand</div>
-                        <div className='bg-[#FFFFFF] py-5 px-3'>Planning can help alleviate workplace stress and increase productivity.</div>
-                        <div className='bg-[#FFFFFF] py-5 px-3'>Those who experiment the most, are able to innovate the best.</div>
-                        <div className='bg-[#FFFFFF] py-5 px-3'>Understand Your Problem, You must understand the issue.</div>
+                        <div className='bg-[#FFFFFF] py-5 px-3'>Expert consultants help brides find their perfect dress.</div>
+                        <div className='bg-[#FFFFFF] py-5 px-3'>Tailor-made gowns crafted to individual preferences.</div>
+                        <div className='bg-[#FFFFFF] py-5 px-3'>Capture memorable moments with professional coverage.</div>
+                        <div className='bg-[#FFFFFF] py-5 px-3'>Affordable and premium wedding dress solutions.</div>
                     </div>
                 </div>
             </div>

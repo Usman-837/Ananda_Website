@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '@/app/components/About/Navbar/Navbar'
-import Banner from '@/app/components/Services/Banner/Banner'
+import Banner from '@/app/components/OurServices/Weddingdress/Banner/Banner'
 import ProjectRequiremnets from '@/app/components/OurServices/Weddingdress/ProjectRequirements/ProjectRequiremnets'
 import Sidebar from '@/app/components/OurServices/Weddingdress/Sidebar/Sidebar'
 import Testimonials from '@/app/components/About/Testimonials/Testimonials'
