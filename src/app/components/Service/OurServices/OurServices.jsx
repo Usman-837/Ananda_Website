@@ -18,54 +18,54 @@ const OurServices = () => {
   const ServicesData = [
     {
       id: 1,
-      name: 'Wedding Dress',
-      image: weddingdress,
-    },
-    {
-      id: 2,
-      name: 'Event Planning',
-      image: eventplanning,
-    },
-    {
-      id: 3,
-      name: 'Photography',
-      image: photography,
-    },
-    {
-      id: 4,
-      name: 'Cake Design',
-      image: cakedesign,
-    },
-    {
-      id: 5,
-      name: 'Venu Selection',
-      image: venuselection,
-    },
-    {
-      id: 6,
-      name: 'Decoration',
-      image: decoration,
-    },
-    {
-      id: 7,
-      name: 'Cetering',
-      image: catering,
-    },
-    {
-      id: 8,
-      name: 'Entertainment',
-      image: entertainment,
-    },
-    {
-      id: 9,
       name: 'Style by Ananda',
       image: style,
     },
     {
-      id: 10,
+      id: 2,
       name: 'Jewelry by Ananda',
       image: jewelry,
-    }
+    },
+    {
+      id: 3,
+      name: 'Wedding Dress',
+      image: weddingdress,
+    },
+    {
+      id: 4,
+      name: 'Event Planning',
+      image: eventplanning,
+    },
+    {
+      id: 5,
+      name: 'Photography',
+      image: photography,
+    },
+    {
+      id: 6,
+      name: 'Cake Design',
+      image: cakedesign,
+    },
+    {
+      id: 7,
+      name: 'Venu Selection',
+      image: venuselection,
+    },
+    {
+      id: 8,
+      name: 'Decoration',
+      image: decoration,
+    },
+    {
+      id: 9,
+      name: 'Cetering',
+      image: catering,
+    },
+    {
+      id: 10,
+      name: 'Entertainment',
+      image: entertainment,
+    },
   ]
 
   return (
