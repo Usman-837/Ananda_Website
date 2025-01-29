@@ -18,41 +18,42 @@ import "slick-carousel/slick/slick-theme.css"
 const Memories = () => {
 
     const cardData = [
+        
         {
             id: 1,
-            name: 'Wedding Dress',
-            image: cardimage1,
-        },
-        {
-            id: 2,
-            name: 'Wedding Regist',
-            image: cardimage2,
-        },
-        {
-            id: 3,
-            name: 'Photography',
-            image: cardimage3,
-        },
-        {
-            id: 4,
-            name: 'Cake Design',
-            image: cardimage4,
-        },
-        {
-            id: 5,
-            name: 'Event Planning',
-            image: cardimage5,
-        },
-        {
-            id: 6,
             name: 'Style by Ananda',
             image: cardimage6,
         },
         {
-            id: 7,
+            id: 2,
             name: 'Jewelry by Ananda',
             image: cardimage7,
-        }
+        },
+        {
+            id: 3,
+            name: 'Wedding Dress',
+            image: cardimage1,
+        },
+        {
+            id: 4,
+            name: 'Wedding Regist',
+            image: cardimage2,
+        },
+        {
+            id: 5,
+            name: 'Photography',
+            image: cardimage3,
+        },
+        {
+            id: 6,
+            name: 'Cake Design',
+            image: cardimage4,
+        },
+        {
+            id: 7,
+            name: 'Event Planning',
+            image: cardimage5,
+        },
     ]
 
     var settings = {
