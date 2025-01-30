@@ -337,91 +337,91 @@ const ProjectRequiremnets = ({ id }) => {
         {
             id: 1,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'Seamless coordination and meticulous execution, ensuring every detail reflects your dreams.' },
+                { id: 2, des: 'Indulge in a culinary journey with customized menus curated by world-class chefs.' },
+                { id: 3, des: 'Live music, performers, and immersive experiences to elevate your event atmosphere.' },
+                { id: 4, des: 'Tailored wedding concepts with a touch of timeless romance and grandeur.' }
             ]
         },
         {
             id: 2,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'Create a one-of-a-kind masterpiece with our expert artisans, designed to reflect your unique style.' },
+                { id: 2, des: 'Revitalize your cherished pieces or transform old treasures into modern, breathtaking designs.' },
+                { id: 3, des: 'From dazzling engagement rings to heirloom-worthy wedding bands, we offer timeless pieces for your special day.' },
+                { id: 4, des: 'Make every occasion unforgettable with exquisite jewelry, customized to add a personal touch.' }
             ]
         },
         {
             id: 3,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'Tailor-made wedding dresses crafted to reflect your unique style and personality.' },
+                { id: 2, des: 'Handpicked dresses from renowned designers, blending sophistication with contemporary trends.' },
+                { id: 3, des: 'Expert fitting services to ensure flawless elegance and comfort.' },
+                { id: 4, des: 'Exquisite gowns for bridesmaids, flower girls, and mother-of-the-bride ensembles.' }
             ]
         },
         {
             id: 4,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'From concept to execution, we handle everything—venue selection, vendor coordination, and timeline management' },
+                { id: 2, des: 'We bring your vision to life with exquisite themes and personalized details that reflect your style and personality.' },
+                { id: 3, des: 'Exclusive venues, bespoke experiences, and VIP services for those who seek the extraordinary.' },
+                { id: 4, des: 'From live performances to lighting and sound design, we craft immersive experiences that leave a lasting impression' }
             ]
         },
         {
             id: 5,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'From heartfelt vows to grand receptions, we preserve your most cherished moments with stunning imagery.' },
+                { id: 2, des: 'Relive your event with beautifully edited films, capturing every emotion and detail.' },
+                { id: 3, des: 'Professional photography that highlights key moments, branding, and the essence of your event.' },
+                { id: 4, des: 'Natural, elegant, and timeless portraits that showcase the true essence of your celebration.' }
             ]
         },
         {
             id: 6,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'From timeless classics to intricate modern designs, we craft cakes tailored to your vision.' },
+                { id: 2, des: 'Exquisite multi-tiered masterpieces adorned with handcrafted details, florals, and elegant finishes.' },
+                { id: 3, des: 'Hand-painted details, sugar sculptures, and unique textures to match your theme perfectly.' },
+                { id: 4, des: 'Complete your event with a beautifully curated dessert spread, including cupcakes, macarons, and gourmet pastries.' }
             ]
         },
         {
             id: 7,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'We identify and secure the ideal venue based on your preferences, guest count, and ambiance requirements.' },
+                { id: 2, des: 'Transform any space into a stunning setting with bespoke décor, lighting, and layout planning.' },
+                { id: 3, des: 'We ensure smooth guest access, parking, and accommodation arrangements for a stress-free experience.' },
+                { id: 4, des: 'From catering and AV setup to legal permits, we handle all technicalities to make your event flawless.' }
             ]
         },
         {
             id: 8,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'Personalized themes and décor concepts, ensuring every element aligns with your vision and event aesthetic.' },
+                { id: 2, des: 'Elegant tablescapes, premium linens, and custom furniture arrangements to create a stylish and welcoming space.' },
+                { id: 3, des: 'Stunning backdrops, artistic stage setups, and statement pieces that elevate the visual appeal of your event.' },
+                { id: 4, des: 'Grand entrances, aisle décor, and venue enhancements that leave a lasting first impression.' }
             ]
         },
         {
             id: 9,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'Curated by top chefs, our diverse menu offers a blend of international cuisines and local delicacies, tailored to your taste.' },
+                { id: 2, des: 'From luxurious wedding cakes to artisanal desserts, we create stunning sweet treats to complement your event.' },
+                { id: 3, des: 'Expertly crafted cocktails, fine wines, and non-alcoholic specialties served with elegance.' },
+                { id: 4, des: 'Interactive food stations, buffets, plated dinners, and butler-style service for a seamless dining experience.' }
             ]
         },
         {
             id: 10,
             ServiceSolution2: [
-                { id: 1, des: 'Expert consultants help brides find their perfect dress.' },
-                { id: 2, des: 'Tailor-made gowns crafted to individual preferences.' },
-                { id: 3, des: 'Capture memorable moments with professional coverage.' },
-                { id: 4, des: 'Affordable and premium wedding dress solutions.' }
+                { id: 1, des: 'From soulful jazz to high-energy pop, our professional musicians set the perfect mood.' },
+                { id: 2, des: 'Elegant ballroom, cultural performances, or electrifying modern dance—customized for your event.' },
+                { id: 3, des: 'Magicians, acrobats, fire performers, and theatrical productions to mesmerize your audience.' },
+                { id: 4, des: 'Curated playlists, high-quality sound, and seamless music transitions to keep the party alive.' }
             ]
         },
     ];
