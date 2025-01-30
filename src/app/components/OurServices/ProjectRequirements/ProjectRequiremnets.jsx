@@ -1,7 +1,16 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import serviceimage from '../../../../../public/OurServices/ProjectRequirements/image1.png'
+import stylebyananda from '../../../../../public/OurServices/ProjectRequirements/stylebyananda.png'
+import jewelrybyananda from '../../../../../public/OurServices/ProjectRequirements/jewelrybyananda.png'
+import weddingdress from '../../../../../public/OurServices/ProjectRequirements/weddingdress.png'
+import eventplanning from '../../../../../public/OurServices/ProjectRequirements/eventplanning.png'
+import photography from '../../../../../public/OurServices/ProjectRequirements/photography.png'
+import cakedesign from '../../../../../public/OurServices/ProjectRequirements/cakedesign.png'
+import venueselection from '../../../../../public/OurServices/ProjectRequirements/venueselection.png'
+import decoration from '../../../../../public/OurServices/ProjectRequirements/decoration.png'
+import catering from '../../../../../public/OurServices/ProjectRequirements/catering.png'
+import entertainment from '../../../../../public/OurServices/ProjectRequirements/entertainment.png'
 import projectimage from '../../../../../public/OurServices/ProjectRequirements/image2.png'
 import researchimg from '../../../../../public/OurServices/ProjectRequirements/research.png'
 import ideaimg from '../../../../../public/OurServices/ProjectRequirements/idea.png'
@@ -14,70 +23,70 @@ const ProjectRequiremnets = ({ id }) => {
             id: 1,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: stylebyananda,
             projectimage: projectimage,
         },
         {
             id: 2,
             des1: 'A luxury car showcase event featuring the latest automobile innovations, exclusive test drives, and high-end networking opportunities.',
             des2: 'Visitors can experience cutting-edge technology, interact with industry experts, and enjoy a premium exhibition of world-class cars.',
-            serviceimage: serviceimage,
+            serviceimage: jewelrybyananda,
             projectimage: projectimage,
         },
         {
             id: 3,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: weddingdress,
             projectimage: projectimage,
         },
         {
             id: 4,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: eventplanning,
             projectimage: projectimage,
         },
         {
             id: 5,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: photography,
             projectimage: projectimage,
         },
         {
             id: 6,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: cakedesign,
             projectimage: projectimage,
         },
         {
             id: 7,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: venueselection,
             projectimage: projectimage,
         },
         {
             id: 8,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: decoration,
             projectimage: projectimage,
         },
         {
             id: 9,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: catering,
             projectimage: projectimage,
         },
         {
             id: 10,
             des1: 'The wedding dress event will feature a curated collection of bridal gowns, showcasing a variety of styles from traditional to modern. Held in an elegant venue with perfect lighting, the event will offer live dress trials with professional models and personalized fittings for guests.',
             des2: 'Guests can explore accessories from partnered vendors, including jewelers and florists, to complete their bridal look. A runway show can highlight the finest designs, creating an immersive experience.',
-            serviceimage: serviceimage,
+            serviceimage: entertainment,
             projectimage: projectimage,
         },
     ];
