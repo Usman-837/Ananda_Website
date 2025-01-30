@@ -13,7 +13,7 @@ const About = () => {
                         <h1 className='Vujahday text-DustyGreen text-fifty max-sm:text-4xl leading-seventytwo'>About US</h1>
                         <p className='text-thirtyfive max-md:text-2xl fiftyone text-SlateBlack'>We Are The Best Wedding<br />
                             Planner & Decor.</p>
-                        <p className='Jost leading-thirtytwo text-DustyGreen text-lg'>The integer lives in a tortilla for a new temporal lighthouse. The lobster curates a tongue at the lecture's convoy, flying an arrow at a great vault. The elite wolf sits at the world's locket, with free lace as a facilitator. The rented hut sends a book on a sour fermentation, identifying an author with no price.</p>
+                        <p className='Jost leading-thirtytwo text-DustyGreen text-lg'>Your dream wedding deserves nothing but perfection, and that's exactly what we deliver. From elegant venue selection to breathtaking décor, we bring your vision to life with creativity, passion, and precision. Whether you envision a grand celebration or an intimate gathering, our expert team meticulously plans</p>
                         <button className='bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen text-lg leading-twentyseven'>Appointment</button>
                     </div>
                     <div className='pl-72 max-md:pl-0 pt-5'>
