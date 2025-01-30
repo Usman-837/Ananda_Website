@@ -27,7 +27,7 @@ const page = ({ params }) => {
         </div>
         <Testimonials id={id} />
         <Video id={id} />
-        <Story />
+        <Story id={id} />
         <Footer />
       </div>
     </div>
