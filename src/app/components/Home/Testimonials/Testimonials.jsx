@@ -12,27 +12,27 @@ const Testimonials = () => {
     const testimonialData = [
         {
             id: 1,
-            name: 'Harrison & Blake',
-            date: '23.05.2022',
-            des: 'Donec cursus justo at urna pharetra, a tincidunt ante lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tristique orci sit amet ex sollicitudin, ac malesuada ante convallis. Aliquam erat volutpat.',
+            name: 'Sophia R',
+            date: '23.05.2020',
+            des: 'Ananda’s styling expertise gave me the perfect look for my special event. The outfits, accessories, and attention to detail made me feel glamorous and confident. Truly a fashion magician who knows how to create stunning transformations!'
         },
         {
             id: 2,
-            name: 'William Grant',
-            date: '23.05.2022',
-            des: 'Aenean vel mi vitae felis volutpat facilisis. Morbi ac augue tristique, aliquet velit ac, tincidunt ligula. Cras convallis felis sit amet felis efficitur, a condimentum eros volutpat. Integer vulputate, elit ac ullamcorper interdum, odio felis egestas ante',
+            name: 'Olivia M',
+            date: '23.05.2021',
+            des: 'Ananda’s jewelry collection is simply breathtaking! Each piece radiates elegance and craftsmanship, making my bridal look shine. The unique designs and quality exceeded my expectations. I felt like royalty on my big day!'
         },
         {
             id: 3,
-            name: 'Sophia Carter',
+            name: 'Emily T',
             date: '23.05.2022',
-            des: 'Nullam feugiat auctor ante, nec cursus nisl facilisis ut. Pellentesque sit amet velit non magna maximus elementum a ut risus. Proin at gravida orci, non lobortis ligula. Aenean malesuada felis dui, id varius ante gravida ac. Curabitur id nulla et odio sollicitudin.',
+            des: 'My wedding dress was everything I dreamed of and more! and wedding dress of Ananda helped me find the perfect design that fit beautifully and made me feel amazing. Every detail was flawless. I couldn’t have asked for better!'
         },
         {
             id: 4,
-            name: 'Edward Turner',
-            date: '23.05.2022',
-            des: 'Cras nec tortor vitae ipsum luctus lobortis. Integer ultricies orci vel erat dapibus, in tincidunt orci posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer fermentum odio sit amet eros dictum, ac consequat erat tristique.',
+            name: 'Jessica W',
+            date: '23.05.2023',
+            des: 'Ananda took the stress out of wedding planning! Every detail was managed seamlessly, and the day turned out perfect. From timeline coordination to vendor selection, everything was smooth and stress-free. Highly recommended!'
         }
     ]
 
