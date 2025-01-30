@@ -13,7 +13,7 @@ const About = () => {
                         <h1 className='Vujahday text-DustyGreen text-fifty max-sm:text-4xl leading-seventytwo'>About US</h1>
                         <p className='text-thirtyfive max-md:text-2xl fiftyone text-SlateBlack'>We Are The Best Wedding<br />
                             Planner & Decor.</p>
-                        <p className='Jost leading-thirtytwo text-DustyGreen text-lg'>Integer ut tortor vitae nunc tempor pharetra. Curabitur lobortis ligula at lectus convallis, vel sagittis magna volutpat. Morbi volutpat elit sit amet lorem volutpat, eu lacinia libero facilisis. Ut hendrerit mi sed lorem fermentum, id auctor neque pretium. Nam fringilla dolor in ante malesuada, eget tincidunt nulla suscipit.</p>
+                        <p className='Jost leading-thirtytwo text-DustyGreen text-lg'>The integer lives in a tortilla for a new temporal lighthouse. The lobster curates a tongue at the lecture's convoy, flying an arrow at a great vault. The elite wolf sits at the world's locket, with free lace as a facilitator. The rented hut sends a book on a sour fermentation, identifying an author with no price.</p>
                         <button className='bg-SoftBeigePink hover:bg-SlateBlack text-white px-fortyfive py-fifteen text-lg leading-twentyseven'>Appointment</button>
                     </div>
                     <div className='pl-72 max-md:pl-0 pt-5'>
