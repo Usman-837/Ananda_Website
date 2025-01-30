@@ -11,15 +11,43 @@ const Story = ({ id }) => {
     const MainHeading = [
         {
             id: 1,
-            title: 'FEATURED WEDDING STORY'
+            title: 'FEATURED STYLE BY ANANDA'
         },
         {
             id: 2,
-            title: 'FEATURED STYLE STORY'
+            title: 'FEATURED JEWELRY BY ANANDA'
         },
         {
             id: 3,
-            title: 'FEATURED JEWELRY STORY'
+            title: 'FEATURED WEDDING STORY'
+        },
+        {
+            id: 4,
+            title: 'FEATURED EVENT PLAN'
+        },
+        {
+            id: 5,
+            title: 'FEATURED PHOTOGRAPHY'
+        },
+        {
+            id: 6,
+            title: 'FEATURED CAKE DESIGN'
+        },
+        {
+            id: 7,
+            title: 'FEATURED VENU'
+        },
+        {
+            id: 8,
+            title: 'FEATURED DECORATION'
+        },
+        {
+            id: 9,
+            title: 'FEATURED CETERING'
+        },
+        {
+            id: 10,
+            title: 'FEATURED ENTERTAINMENTY'
         },
     ]
 
@@ -74,7 +102,126 @@ const Story = ({ id }) => {
                     date: 'Austria - 28 Oct 2020'
                 }
             ]
-        }
+        },
+        {
+            id: 4,
+            LeftSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img1,
+                    name: 'Ali & Robert',
+                    date: 'Chaina - 14 Sep 2019'
+                },
+                {
+                    id: 2,
+                    img: Img2,
+                    name: 'Rihanna & William',
+                    date: 'Austria - 28 Oct 2020'
+                }
+            ]
+        },
+        {
+            id: 5,
+            LeftSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img1,
+                    name: 'Ali & Robert',
+                    date: 'Chaina - 14 Sep 2019'
+                },
+                {
+                    id: 2,
+                    img: Img2,
+                    name: 'Rihanna & William',
+                    date: 'Austria - 28 Oct 2020'
+                }
+            ]
+        },
+        {
+            id: 6,
+            LeftSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img1,
+                    name: 'Ali & Robert',
+                    date: 'Chaina - 14 Sep 2019'
+                },
+                {
+                    id: 2,
+                    img: Img2,
+                    name: 'Rihanna & William',
+                    date: 'Austria - 28 Oct 2020'
+                }
+            ]
+        },
+        {
+            id: 7,
+            LeftSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img1,
+                    name: 'Ali & Robert',
+                    date: 'Chaina - 14 Sep 2019'
+                },
+                {
+                    id: 2,
+                    img: Img2,
+                    name: 'Rihanna & William',
+                    date: 'Austria - 28 Oct 2020'
+                }
+            ]
+        },
+        {
+            id: 8,
+            LeftSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img1,
+                    name: 'Ali & Robert',
+                    date: 'Chaina - 14 Sep 2019'
+                },
+                {
+                    id: 2,
+                    img: Img2,
+                    name: 'Rihanna & William',
+                    date: 'Austria - 28 Oct 2020'
+                }
+            ]
+        },
+        {
+            id: 9,
+            LeftSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img1,
+                    name: 'Ali & Robert',
+                    date: 'Chaina - 14 Sep 2019'
+                },
+                {
+                    id: 2,
+                    img: Img2,
+                    name: 'Rihanna & William',
+                    date: 'Austria - 28 Oct 2020'
+                }
+            ]
+        },
+        {
+            id: 10,
+            LeftSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img1,
+                    name: 'Ali & Robert',
+                    date: 'Chaina - 14 Sep 2019'
+                },
+                {
+                    id: 2,
+                    img: Img2,
+                    name: 'Rihanna & William',
+                    date: 'Austria - 28 Oct 2020'
+                }
+            ]
+        },
 
     ]
 
@@ -115,6 +262,125 @@ const Story = ({ id }) => {
         },
         {
             id: 3,
+            RightSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img3,
+                    name: 'Sarah & Daniel',
+                    date: 'Singapore - 16 May 2022'
+                },
+                {
+                    id: 2,
+                    img: Img4,
+                    name: 'Kate & Johnthan',
+                    date: 'London - 22 June 2022'
+                }
+            ]
+        },
+        {
+            id: 4,
+            RightSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img3,
+                    name: 'Sarah & Daniel',
+                    date: 'Singapore - 16 May 2022'
+                },
+                {
+                    id: 2,
+                    img: Img4,
+                    name: 'Kate & Johnthan',
+                    date: 'London - 22 June 2022'
+                }
+            ]
+        },
+        {
+            id: 5,
+            RightSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img3,
+                    name: 'Sarah & Daniel',
+                    date: 'Singapore - 16 May 2022'
+                },
+                {
+                    id: 2,
+                    img: Img4,
+                    name: 'Kate & Johnthan',
+                    date: 'London - 22 June 2022'
+                }
+            ]
+        },
+        {
+            id: 6,
+            RightSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img3,
+                    name: 'Sarah & Daniel',
+                    date: 'Singapore - 16 May 2022'
+                },
+                {
+                    id: 2,
+                    img: Img4,
+                    name: 'Kate & Johnthan',
+                    date: 'London - 22 June 2022'
+                }
+            ]
+        },
+        {
+            id: 7,
+            RightSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img3,
+                    name: 'Sarah & Daniel',
+                    date: 'Singapore - 16 May 2022'
+                },
+                {
+                    id: 2,
+                    img: Img4,
+                    name: 'Kate & Johnthan',
+                    date: 'London - 22 June 2022'
+                }
+            ]
+        },
+        {
+            id: 8,
+            RightSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img3,
+                    name: 'Sarah & Daniel',
+                    date: 'Singapore - 16 May 2022'
+                },
+                {
+                    id: 2,
+                    img: Img4,
+                    name: 'Kate & Johnthan',
+                    date: 'London - 22 June 2022'
+                }
+            ]
+        },
+        {
+            id: 9,
+            RightSideStoryData2: [
+                {
+                    id: 1,
+                    img: Img3,
+                    name: 'Sarah & Daniel',
+                    date: 'Singapore - 16 May 2022'
+                },
+                {
+                    id: 2,
+                    img: Img4,
+                    name: 'Kate & Johnthan',
+                    date: 'London - 22 June 2022'
+                }
+            ]
+        },
+        {
+            id: 10,
             RightSideStoryData2: [
                 {
                     id: 1,
