@@ -13,7 +13,7 @@ const Banner = ({ id }) => {
     { id: 6, title: 'Cake Design' },
     { id: 7, title: 'Venu Selection' },
     { id: 8, title: 'Decoration' },
-    { id: 9, title: 'Cereting' },
+    { id: 9, title: 'Cetering' },
     { id: 10, title: 'Entertainment' },
   ]
 
