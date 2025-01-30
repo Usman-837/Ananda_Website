@@ -2,7 +2,16 @@
 import React from 'react'
 import { TfiQuoteRight } from "react-icons/tfi"
 import Image from 'next/image'
-import testimonialimg1 from '../../../../../public/OurServices/Testimonials/image.png'
+import testimonialimg1 from '../../../../../public/OurServices/Testimonials/testimonialimg1.webp'
+import testimonialimg2 from '../../../../../public/OurServices/Testimonials/testimonialimg2.webp'
+import testimonialimg3 from '../../../../../public/OurServices/Testimonials/testimonialimg3.webp'
+import testimonialimg4 from '../../../../../public/OurServices/Testimonials/testimonialimg4.webp'
+import testimonialimg5 from '../../../../../public/OurServices/Testimonials/testimonialimg5.webp'
+import testimonialimg6 from '../../../../../public/OurServices/Testimonials/testimonialimg6.webp'
+import testimonialimg7 from '../../../../../public/OurServices/Testimonials/testimonialimg7.webp'
+import testimonialimg8 from '../../../../../public/OurServices/Testimonials/testimonialimg8.webp'
+import testimonialimg9 from '../../../../../public/OurServices/Testimonials/testimonialimg9.webp'
+import testimonialimg10 from '../../../../../public/OurServices/Testimonials/testimonialimg10.webp'
 
 const Testimonials = ({ id }) => {
 
@@ -10,72 +19,72 @@ const Testimonials = ({ id }) => {
         {
             id: 1,
             img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            des: 'Ananda’s styling expertise gave me the perfect look for my special event. The outfits, accessories, and attention to detail made me feel glamorous and confident. Truly a fashion magician who knows how to create stunning transformations!',
+            name: 'Sophia R',
+            date: '23.05.2022'
         },
         {
             id: 2,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg2,
+            des: 'Ananda’s jewelry collection is simply breathtaking! Each piece radiates elegance and craftsmanship, making my bridal look shine. The unique designs and quality exceeded my expectations. I felt like royalty on my big day!',
+            name: 'Olivia M',
+            date: '23.05.2022'
         },
         {
             id: 3,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg3,
+            des: 'My wedding dress was everything I dreamed of and more! Ananda helped me find the perfect design that fit beautifully and made me feel amazing. Every detail was flawless. I couldn’t have asked for better!',
+            name: 'Emily T',
+            date: '23.05.2022'
         },
         {
             id: 4,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg4,
+            des: 'Ananda took the stress out of wedding planning! Every detail was managed seamlessly, and the day turned out perfect. From timeline coordination to vendor selection, everything was smooth and stress-free. Highly recommended!',
+            name: 'Jessica W',
+            date: '23.05.2022'
         },
         {
             id: 5,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg5,
+            des: 'The photos Ananda captured are simply magical! Every special moment was preserved with breathtaking shots that tell our love story. The creativity, professionalism, and quality exceeded our expectations. Forever grateful for these precious memories!',
+            name: 'Rachel D',
+            date: '23.05.2022'
         },
         {
             id: 6,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg6,
+            des: 'Ananda’s cake design was a masterpiece! Not only was it visually stunning, but the flavors were divine. Our guests were in awe of both the beauty and taste. It truly made our wedding extra special!',
+            name: 'Daniel P',
+            date: '23.05.2022'
         },
         {
             id: 7,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg7,
+            des: 'Finding the right venue was overwhelming, but Ananda made it easy! The venue was stunning, fit our theme perfectly, and accommodated all our needs. Everything was handled smoothly, making our day truly unforgettable!',
+            name: 'Laura H',
+            date: '23.05.2022'
         },
         {
             id: 8,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg8,
+            des: 'Ananda’s decor transformed our wedding into a fairytale! The floral arrangements, lighting, and elegant touches created a breathtaking atmosphere. Everything was picture-perfect, leaving us and our guests in complete awe!',
+            name: 'Megan S',
+            date: '23.05.2022'
         },
         {
             id: 9,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg9,
+            des: 'The catering by Ananda was phenomenal! Every dish was beautifully presented, delicious, and met our guests’ dietary needs. Everyone raved about the food, and it made our celebration even more memorable!',
+            name: 'Michael B',
+            date: '23.05.2022'
         },
         {
             id: 10,
-            img: testimonialimg1,
-            des: 'The smooth flow of design enhances the outcome, perfectly balanced with liveliness. No space is left untouched, as pure elegance seamlessly blends with refined details. Grace and freedom come together',
-            name: 'David Mitchell',
-            date: 'Wedding. 23.05.2022'
+            img: testimonialimg10,
+            des: 'Our wedding was full of energy and excitement, thanks to Ananda’s entertainment planning! The music, performances, and interactive experiences kept our guests engaged and entertained all night. Best decision ever!',
+            name: ' Jason L',
+            date: '23.05.2022'
         },
     ]
 
