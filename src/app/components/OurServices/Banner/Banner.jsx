@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import banner from '../../../../../public/About/Banner/Banner.png'
+import banner from '../../../../../public/OurServices/Banner/Banner.png'
 import { TypeAnimation } from 'react-type-animation'
 
 const Banner = ({ id }) => {

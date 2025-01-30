@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Img1 from '../../../../../public/OurServices/StyleByAnanda/StyleByAnandaStory/image1.png'
-import Img2 from '../../../../../public/OurServices/StyleByAnanda/StyleByAnandaStory/image3.png'
-import Img3 from '../../../../../public/OurServices/StyleByAnanda/StyleByAnandaStory/image2.png'
-import Img4 from '../../../../../public/OurServices/StyleByAnanda/StyleByAnandaStory/image4.png'
+import Img1 from '../../../../../public/OurServices/Story/image1.png'
+import Img2 from '../../../../../public/OurServices/Story/image3.png'
+import Img3 from '../../../../../public/OurServices/Story/image2.png'
+import Img4 from '../../../../../public/OurServices/Story/image4.png'
 
 const Story = ({ id }) => {
 

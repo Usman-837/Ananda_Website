@@ -11,16 +11,16 @@ import Footer from '../components/Home/Footer/Footer'
 
 const Service = () => {
   return (
-    <div className='bg-[#FAF6F2]'>
-      <Navbar/>
-      <Banner/>
-      <OurServices/>
-      <Rating/>
-      <Testimonials/>
-      <Video/>
-      <Partners/>
-      <Contact/>
-      <Footer/>
+    <div className='bg-WarmWhite'>
+      <Navbar />
+      <Banner />
+      <OurServices />
+      <Rating />
+      <Testimonials />
+      <Video />
+      <Partners />
+      <Contact />
+      <Footer />
     </div>
   )
 }

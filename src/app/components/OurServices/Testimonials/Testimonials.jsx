@@ -2,7 +2,7 @@
 import React from 'react'
 import { TfiQuoteRight } from "react-icons/tfi"
 import Image from 'next/image'
-import testimonialimg1 from '../../../../../public/OurServices/StyleByAnanda/Testimonials/image.png'
+import testimonialimg1 from '../../../../../public/OurServices/Testimonials/image.png'
 
 const Testimonials = ({ id }) => {
 

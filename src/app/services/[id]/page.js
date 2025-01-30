@@ -14,22 +14,19 @@ const page = ({ params }) => {
   const { id } = params;
 
   return (
-    <div>
-      <h1>product {id}</h1>
-      <div className='bg-[#FAF6F2]'>
-        <Navbar/>
-        <Banner id={id} />
-        <div className='container'>
-          <div className='flex gap-10 max-laptop:flex-col'>
-            <ProjectRequiremnets id={id} />
-            <Sidebar />
-          </div>
+    <div className='bg-WarmWhite'>
+      <Navbar />
+      <Banner id={id} />
+      <div className='container'>
+        <div className='flex gap-10 max-laptop:flex-col'>
+          <ProjectRequiremnets id={id} />
+          <Sidebar />
         </div>
-        <Testimonials id={id} />
-        <Video id={id} />
-        <Story id={id} />
-        <Footer />
       </div>
+      <Testimonials id={id} />
+      <Video id={id} />
+      <Story id={id} />
+      <Footer />
     </div>
   )
 }
