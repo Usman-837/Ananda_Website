@@ -1,16 +1,16 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import stylebyananda from '../../../../../public/OurServices/ProjectRequirements/stylebyananda.png'
-import jewelrybyananda from '../../../../../public/OurServices/ProjectRequirements/jewelrybyananda.png'
+import stylebyananda from '../../../../../public/OurServices/ProjectRequirements/stylebyananda.jpg'
+import jewelrybyananda from '../../../../../public/OurServices/ProjectRequirements/jewelrybyananda.jpg'
 import weddingdress from '../../../../../public/OurServices/ProjectRequirements/weddingdress.png'
-import eventplanning from '../../../../../public/OurServices/ProjectRequirements/eventplanning.png'
-import photography from '../../../../../public/OurServices/ProjectRequirements/photography.png'
-import cakedesign from '../../../../../public/OurServices/ProjectRequirements/cakedesign.png'
-import venueselection from '../../../../../public/OurServices/ProjectRequirements/venueselection.png'
-import decoration from '../../../../../public/OurServices/ProjectRequirements/decoration.png'
-import catering from '../../../../../public/OurServices/ProjectRequirements/catering.png'
-import entertainment from '../../../../../public/OurServices/ProjectRequirements/entertainment.png'
+import eventplanning from '../../../../../public/OurServices/ProjectRequirements/eventplanning.jpg'
+import photography from '../../../../../public/OurServices/ProjectRequirements/photography.jpg'
+import cakedesign from '../../../../../public/OurServices/ProjectRequirements/cakedesign.jpg'
+import venueselection from '../../../../../public/OurServices/ProjectRequirements/venuselection.jpg'
+import decoration from '../../../../../public/OurServices/ProjectRequirements/decoration.jpg'
+import catering from '../../../../../public/OurServices/ProjectRequirements/cetering.jpg'
+import entertainment from '../../../../../public/OurServices/ProjectRequirements/entertainment.jpg'
 import stylebyanandaprojectrequire from '../../../../../public/OurServices/ProjectRequirements/stylebyanandaprojectrequire.png'
 import jewelrybyanandprojectrequire from '../../../../../public/OurServices/ProjectRequirements/jewelrybyanandprojectrequire.png'
 import weddingdressprojectrequire from '../../../../../public/OurServices/ProjectRequirements/weddingdressprojectrequire.png'
@@ -435,7 +435,7 @@ const ProjectRequiremnets = ({ id }) => {
             {selectedData && (
                 <div>
                     <div data-aos="fade-up" data-aos-duration="1000">
-                        <Image src={selectedData.serviceimage} alt='serviceimage' />
+                        <Image src={selectedData.serviceimage} alt='serviceimage'/>
                     </div>
                     <div className='flex flex-col gap-y-10 pt-24 max-sm:pt-12' data-aos="fade-up" data-aos-duration="1000">
                         <h1 className='Jost text-SlateBlack leading-thirtysix text-3xl max-sm:text-2xl max-sm:text-center font-medium'>Project Requirement</h1>
