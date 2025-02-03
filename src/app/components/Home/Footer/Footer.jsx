@@ -54,7 +54,7 @@ const Footer = () => {
                         </li>
                         <li className='flex items-center gap-x-2'>
                             <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>
-                            <Link href="/service">Services</Link>
+                            <Link href="/services">Services</Link>
                         </li>
                         <li className='flex items-center gap-x-2'>
                             <p className='w-2 h-2 bg-SoftBeigePink rounded-full'></p>

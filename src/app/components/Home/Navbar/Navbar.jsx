@@ -60,7 +60,7 @@ const Navbar = () => {
               <Link href="/about">About Us</Link>
             </li>
             <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
-              <Link href="/service">Service</Link>
+              <Link href="/services">Services</Link>
             </li>
             <li className='hover:text-SoftBeigePink' onClick={handleToggle}>
               <Link href="/contact">Contact</Link>
